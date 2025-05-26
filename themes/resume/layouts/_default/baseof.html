@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{ partial "head.html" . }}
+
+</head>
+<body class="body {{ if .Params.toc }}with-toc{{ end }}" >
+
+    {{ if .Params.toc }}
+        {{ partial "toc.html" . }}
+    {{ end }}
+    {{ partial "header.html" . }}
+    
+    
+
+
+
+    <div class="content">
+
+        <div class="section-main {{ if .Params.toc }}with-toc{{ end }}">
+            {{ block "main" . }}{{ end }}
+        </div>
+
+        {{ if (findRE "<pre" .Content 1) }}
+            <script src="/js/copy-code-button.js"></script>
+        {{ end }}
+    </div>
+
+    {{ partial "footer.html" . }}
+</body>
+
+</html>

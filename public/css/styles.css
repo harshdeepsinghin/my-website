@@ -1,0 +1,351 @@
+body {
+    display:flex;
+    flex-direction:column;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Background color for contrast */
+    color: #ffffff; /* Text color */
+    font-family: monospace; /* Monospace font for terminal feel */
+    font-size: 20px; /* Increased font size for better readability */
+    line-height: 1.6; /* Increased line height for better spacing */
+    justify-content: center; /* Centering content */
+    min-height: 100vh;
+}
+
+.content {
+    flex-grow: 1;
+  /* no justify-content or align-items here, content stays at top by default */
+    display: flex;
+    flex-direction: column;
+}
+
+.section-toc {
+    display:grid;
+    align-items:left;
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    
+
+    width: 12em;
+    top: 33vh;
+      left: 2rem;  
+    padding-left: 0;
+  
+    display: inline-block;
+    text-decoration: none;
+      line-height: 2rem;
+      padding: 0 1rem;
+    color:#00ff00;
+    
+  }
+  
+  .section-toc a:hover,
+  .section-toc a:focus {
+    color: white;
+    text-decoration: underline;
+    font-style:italic;
+    padding-left:20px;
+    transition: all .2s ease-in-out;
+  }
+
+  .section-toc a:not(:hover),
+  .section-toc a:not(focus) {
+    padding-left:0px;
+    transition: all .2s ease-in-out;
+  }
+
+.section-main {
+    display:grid;
+    align-items:right;
+    width: 70%;        /* Fixed width */
+    margin-left: auto;  /* Auto margin for horizontal centering */
+    margin-right: auto; /* Auto margin for horizontal centering */
+    padding-left: 0;    /* Remove manual padding */
+    padding-right: 0;   /* Remove manual padding */
+}
+
+.section-main.with-toc {
+    display:grid;
+    align-items:right;
+    margin-left: 25%;  /* Auto margin for horizontal centering */
+    padding-left: 3%;    /* Remove manual padding */
+    padding-right: 0;   /* Remove manual padding */
+    border-left: solid 1px #00ff00;
+}
+
+
+/* Make code blocks wrap instead of overflow */
+pre, code {
+  white-space: pre-wrap !important; /* Allow wrapping */
+  word-break: break-word;            /* Break long words if needed */
+  overflow-wrap: break-word;         /* Same as above */
+}
+
+/* Optional: add some padding and background for readability */
+pre {
+  background-color: #272822; /* Monokai dark bg */
+  color: #f8f8f2;            /* Monokai text color */
+  padding: 1em;
+  border-radius: 6px;
+  overflow-x: auto;          /* Keep horizontal scroll if still overflow */
+  position: relative;
+}
+
+/* Add a subtle shadow or border for better separation */
+code {
+  font-family: monospace;
+}
+
+.copy-code-button {
+    color: #ffffff;
+    background-color: #272822;
+    border-color: #272822;
+    border-radius: 3px 3px 0px 0px;
+
+    /* right-align */
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+
+    margin-bottom: -2   px;
+    padding: 3px 8px;
+    padding-bottom: -10;
+    font-size: 0.8em;
+}
+
+.copy-code-button:hover {
+    color:#00ff00;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.copy-code-button:focus {
+    /* Avoid an ugly focus outline on click in Chrome,
+       but darken the button for accessibility.
+       See https://stackoverflow.com/a/25298082/1481479 */
+    background-color: #E6E6E6;
+    outline: 0;
+}
+
+.copy-code-button:active {
+    background-color:white;
+    color:black;
+
+}
+
+.highlight pre {
+    /* Avoid pushing up the copy buttons. */
+    margin: 0;
+}
+
+.header{
+    display:grid;
+    align-items: center;
+    justify-content:center;
+    text-align:center;
+    border-bottom: solid 1px #00ff00;
+    margin-bottom: none;
+
+}
+
+.main-pages-links-home {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.main-pages-links {
+    margin-bottom: 10px;
+    align-items: baseline;
+
+}
+
+
+.site-footer {
+    background-color: #000000;
+    color: #00ff00;
+    text-align: center;
+    padding: 1.5em 0;
+    font-family: monospace;
+    font-size: 0.9em;
+    margin-top: 3rem;
+    border-top: 1px solid #00ff00;
+}
+
+.site-footer a {
+    color: #00ff00;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.site-footer a:hover {
+    color: #ffffff;
+}
+
+
+h1, h2, h3 {
+    color: #00ff00; /* Header color for visibility */
+    margin-bottom: 0px; /* Space below headers */
+    margin-top: 20px; /* Space above headers */
+}
+
+p {
+    margin-bottom: 15px; /* Space below paragraphs */
+}
+
+ul {
+    margin-left: 20px; /* Indentation for lists */
+    margin-bottom: 15px; /* Space below lists */
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+/* Regular link styling */
+a {
+    color: rgb(119, 190, 252); /* Link color */
+    text-decoration: none; /* No underline on links */
+    transition: color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+a:link {
+    color: rgb(119, 190, 252); /* Set default link color */
+}
+
+a[class="heading"] {
+    color: #00ff00;
+}
+
+a[class="section-toc"] {
+    color: #00ff00;
+}
+
+a:visited {
+    color: rgb(119, 190, 252); /* Set visited link color */
+}
+
+a:visited[class="heading"] {
+    color: #00ff00;
+}
+
+a:visited[class="section-toc"] {
+    color: #00ff00;
+}
+
+a:hover {
+    color: #00ff00; /* Link hover color */
+}
+
+a:active {
+    color: #00ff00; /* Color when the link is clicked */
+}
+
+.flex-container {
+    display: flex;              /* Enable flexbox */
+    justify-content: space-between; /* Space between items */
+    align-items: center;       /* Align items vertically */
+}
+
+.year .date {
+    margin-left: auto;         /* Push the year to the right */
+    text-align: right;         /* Right-align the text */
+}
+
+.technical-skills ul {
+    list-style-type: disc;    /* Bullets for main items */
+    padding-left: 20px;       /* Indentation for nested lists */
+}
+
+.technical-skills ul ul {
+    list-style-type: circle;   /* Different bullet style for nested items */
+}
+
+.soft-skills ul {
+    list-style-type: square;    /* Square bullets for soft skills */
+    padding-left: 20px;         /* Indentation for soft skills */
+}
+
+.project h3 {
+    display: flex;
+    justify-content: space-between; /* Space between title and date */
+    align-items: center; /* Align vertically center */
+}
+
+.project-date {
+    margin-left: auto; /* Push the date to the right */
+    text-align: right; /* Ensure right alignment of the date */
+    font-style: italic; /* Optional: italicize the date for styling */
+}
+
+/* Android Responsive Code*/
+@media only screen and (max-width: 940px) {
+
+    body {
+        display:grid;
+        padding:0;
+    }
+    .section-toc {
+        display:none;
+        position: sticky;
+        top: 0;                  /* Stick to the bottom of the viewport */
+        background-color: rgba(0, 0, 0, 0.8); /* No background color */
+        width: 90%;               /* Full viewport width */
+        z-index: 1000;
+        overflow-x: auto;
+        white-space: nowrap;
+        align-content:left;
+    }
+    
+    .section-toc ul {
+        display:inline;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width:1pt;
+    }
+    
+    .section-toc li {
+        margin-right: 10px;
+        float:left;
+    }
+
+    .section-toc a:hover,
+    .section-toc a:focus {
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+        font-style:italic;
+        padding:none;
+        transition: all .2s ease-in-out;
+    }
+
+    .section-toc a:not(:hover),
+    .section-toc a:not(focus) {
+        padding:none;
+        transition: all .2s ease-in-out;
+        
+    }
+
+    .section-toc li:not(:last-child)::after {
+        content: "|";               /* Separator character */
+        color: #00ff00;             /* Green color for the separator */
+        margin-left: 10px;          /* Space between text and separator */
+        font-weight: normal;        /* Optional: match font weight */
+    }
+
+    .section-main.section-main.with-toc {
+        font-size:14pt;
+        border:none;
+        width: 85%;        /* Fixed width */
+        margin-left: auto;  /* Auto margin for horizontal centering */
+        margin-right: 5%; /* Auto margin for horizontal centering */
+        padding-left: 0;    /* Remove manual padding */
+        padding-right: 0;   /* Remove manual padding */
+    }
+
+  
+    ul {
+        margin-left: 0; /* Indentation for lists */
+        margin-bottom: 15px; /* Space below lists */
+    }
+}

@@ -1,0 +1,5 @@
+name = "Resume"
+description = "A clean, terminal-style resume theme for Hugo"
+license = "MIT"
+tags = ["resume", "cv", "minimal", "terminal"]
+features = ["yaml_config"]

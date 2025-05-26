@@ -1,0 +1,26 @@
+baseURL: "https://example.com/"
+languageCode: "en-us"
+title: "Harshdeep Singh"
+theme: resume
+
+params:
+  name: "Harshdeep Singh"
+  website: "https://harshdeepsingh.in"
+  contact:
+    - name: "E-mail"
+      url: "mailto:your@email.com"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/harshdeepsinghin/"
+    - name: "Github"
+      url: "https://github.com/harshdeepsinghin"
+
+markup:
+  highlight:
+    style: monokai       # Choose from Hugo's supported styles like monokai, dracula, etc.
+    noClasses: false     # Use CSS classes instead of inline styles (better for theming)
+    guessSyntax: true    # Automatically guess language if not specified
+    lineNos: false       # Show line numbers in code blocks (true/false)
+    lineNumbersInTable: true
+
+
+cleanDestinationDir: true
