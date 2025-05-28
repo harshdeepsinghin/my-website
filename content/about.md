@@ -37,7 +37,7 @@ I believe in **practicality and logic over emotion** when solving problems. Cons
 
 ## Fun Facts
 
-- Lucky is my nickname
+- Lucky is my nickname.
 - Qualified for Dance India Dance auditions twice in Dehradun and Delhi.
 - A runner-up in group dance competitions at Uurja Fest and DIT Fest.
 - Enjoy skating and educating others as a hobby.

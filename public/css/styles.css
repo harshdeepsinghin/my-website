@@ -5,7 +5,7 @@ body {
     padding: 0;
     background-color: black; /* Background color for contrast */
     color: #ffffff; /* Text color */
-    font-family: monospace; /* Monospace font for terminal feel */
+    font-family: 'Fira Code'; /* Monospace font for terminal feel */
     font-size: 20px; /* Increased font size for better readability */
     line-height: 1.6; /* Increased line height for better spacing */
     justify-content: center; /* Centering content */
@@ -94,7 +94,7 @@ pre {
 
 /* Add a subtle shadow or border for better separation */
 code {
-  font-family: monospace;
+  font-family: 'Fira Code';
 }
 
 .copy-code-button {
@@ -200,6 +200,10 @@ ul {
 
 li {
     margin-bottom: 20px;
+}
+
+#toc-li {
+    margin-bottom: 0px;
 }
 
 /* Regular link styling */

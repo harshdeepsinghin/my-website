@@ -1,7 +1,7 @@
 <div class="section-toc">
     <ul>
         {{ range .Params.sections }}
-            <li><a href="#{{ .id }}">{{ .title }}</a></li>
+            <li id="toc-li"><a href="#{{ .id }}">{{ .title }}</a></li>
         {{ end }}
     </ul>
 </div>

@@ -16,9 +16,9 @@ sections:
     title: "Internship"
   - id: certifications
     title: "Certifications"
-  - id: co-curricular
+  - id: co-curricular-activities
     title: "Co-Curricular Activities"
-  - id: interests
+  - id: 'interests-and-hobbies'
     title: "Interests & Hobbies"
 ---
 
@@ -28,7 +28,6 @@ sections:
 A passionate programmer and technical enthusiast, I thrive on solving complex problems and am deeply invested in the world of cybersecurity. As a Linux OS and FOSS advocate, I leverage my skills to create innovative solutions and enhance digital experiences.
 
 ## Skills
-
 **Technical Skills:** Programming Languages (C, Python, Shell Scripting); Markup Languages (Markdown, YAML, HTML); Database Management (SQL - MySQL, MariaDB); Operating Systems (Linux - Arch, Debian; macOS; Windows); Researching (OSINT, Effective Web Surfing); Git; Documentation Writing.
 
 **Soft Skills:** Analytical, Critical, and Metacognitive Thinking; Problem Solving; Agile Learning; Project Management; Planning and Scheduling; Second Brain and Note-Taking; Tutoring.
@@ -95,7 +94,7 @@ Percentage: 74.4%
 - **Group Dance Competitions**: Runner-up, UPES Fest (Uurja) and DIT Fest, Dehradun.
 - **Songwriting & Music Performance**: Writes and performs original songs and raps; skilled in guitar, congo, and drums.
 
-## Interests & Hobbies
+## Interests and Hobbies
 
 - **Public Speaking & Debating**: Actively engaged in debates and discussions.
 - **Socializing & Networking**: Enjoys connecting with people and expanding perspectives.
