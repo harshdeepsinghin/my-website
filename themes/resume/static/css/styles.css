@@ -256,32 +256,6 @@ a:active {
     text-align: right;         /* Right-align the text */
 }
 
-.technical-skills ul {
-    list-style-type: disc;    /* Bullets for main items */
-    padding-left: 20px;       /* Indentation for nested lists */
-}
-
-.technical-skills ul ul {
-    list-style-type: circle;   /* Different bullet style for nested items */
-}
-
-.soft-skills ul {
-    list-style-type: square;    /* Square bullets for soft skills */
-    padding-left: 20px;         /* Indentation for soft skills */
-}
-
-.project h3 {
-    display: flex;
-    justify-content: space-between; /* Space between title and date */
-    align-items: center; /* Align vertically center */
-}
-
-.project-date {
-    margin-left: auto; /* Push the date to the right */
-    text-align: right; /* Ensure right alignment of the date */
-    font-style: italic; /* Optional: italicize the date for styling */
-}
-
 /* Android Responsive Code*/
 @media only screen and (max-width: 940px) {
 
