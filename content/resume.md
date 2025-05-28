@@ -2,6 +2,10 @@
 created-date: 2024-10-30 15:16
 tags: 
 title: "Resume"
+aliases:
+  - /profile
+  - /cv
+  - /experience
 toc: true
 sections:
   - id: summary

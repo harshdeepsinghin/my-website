@@ -4,6 +4,14 @@
     {{ partial "head.html" . }}
 
 </head>
+<style>
+    @media only screen and (max-width: 800px) {
+        .site-footer {
+            font-size: 14px;
+        }
+    }
+        
+</style>
 <body class="body {{ if .Params.toc }}with-toc{{ end }}" >
 
     {{ if .Params.toc }}

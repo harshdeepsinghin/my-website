@@ -1,3 +1,14 @@
+---
+title: "Socials"
+description: "Harshdeep Singh Socials Page having all the social links."
+aliases:
+  - /social
+  - /link
+  - /links
+  - /connect
+  - /connects
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +17,11 @@
 <title>Harshdeep's Socials</title>
 <style>
   /* Terminal style colors */
- 
+  
+  #socials-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
 
   img.profile-photo {
     align-items: center;
@@ -45,7 +60,6 @@
     font-size: 1rem;
     transition: background-color 0.3s ease, color 0.3s ease;
     text-align: left;
-    font-family: 'Fira Code';
   }
 
   ul.social-list a:hover {
@@ -59,7 +73,14 @@
     height: 20px;
     margin-right: 10px;
     filter: invert(67%) sepia(91%) saturate(394%) hue-rotate(77deg) brightness(94%) contrast(88%);
+    transition: filter 0.3s ease; /* Optional: smooth transition */
   }
+
+  ul.social-list a:hover .favicon {
+    filter: none;
+  }
+
+
 
   /* Responsive */
 @media only screen and (max-width: 800px) {
@@ -73,6 +94,11 @@
       margin: 0;
       width: 70vw;
     }
+    #socials-title {
+      font-size:18px; 
+      margin-bottom: 10px;
+    }
+  
   }
 </style>
 </head>
@@ -82,7 +108,7 @@
     alt="Harshdeep Singh"
     class="profile-photo"
   />
-  <h1>Connect with Harshdeep Singh</h1>
+  <h1 id="socials-title">Connect with Harshdeep Singh</h1>
 
   <ul class="social-list">
     <li><a href="mailto:contact@harshdeepsingh.in" target="_blank" rel="noopener noreferrer">

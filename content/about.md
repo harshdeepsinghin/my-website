@@ -1,5 +1,8 @@
 ---
 title: "About"
+aliases:
+  - /who
+  - /info
 ---
 
 ## About Harshdeep Singh
