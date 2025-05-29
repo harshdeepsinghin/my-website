@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
 <title>Harshdeep Singh</title>
@@ -77,13 +77,21 @@
 
         <div class="section-main ">
             
-    <div class="content">
-        
+  <div class="taxonomy-toggle-buttons">
+    <a href="/tags" class="taxonomy-button ">Tags</a>
+    <a href="/categories" class="taxonomy-button ">Categories</a>
+    <a href="/search" class="taxonomy-button active">Search</a>
+  </div>
 
-
-        
-Search Page
+  <div class="search-wrapper">
+    <input type="search" id="search-input" placeholder="Search posts..." />
+    <div id="search-results" class="search-results-wrapper">
+      <ul id="search-list" class="search-list"></ul>
     </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+  <script src="/js/search.js"></script>
 
         </div>
 

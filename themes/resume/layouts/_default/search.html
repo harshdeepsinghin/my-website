@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <div class="taxonomy-toggle-buttons">
+    <a href="/tags" class="taxonomy-button {{ if eq .Section "tags" }}active{{ end }}">Tags</a>
+    <a href="/categories" class="taxonomy-button {{ if eq .Section "categories" }}active{{ end }}">Categories</a>
+    <a href="/search" class="taxonomy-button {{ if eq .File.BaseFileName "search" }}active{{ end }}">Search</a>
+  </div>
+
+  <div class="search-wrapper">
+    <input type="search" id="search-input" placeholder="Search posts..." />
+    <div id="search-results" class="search-results-wrapper">
+      <ul id="search-list" class="search-list"></ul>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+  <script src="/js/search.js"></script>
+{{ end }}

@@ -25,3 +25,8 @@ markup:
 
 cleanDestinationDir: true
 
+outputs:
+  section:
+    - HTML
+    - JSON
+
