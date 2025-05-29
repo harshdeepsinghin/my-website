@@ -12,6 +12,151 @@ body {
     min-height: 100vh;
 }
 
+
+.list-content-wrapper {
+    width: 40vw;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+/* Post list cards */
+    .card {
+      background-color: #2d2d2d;
+      padding: 1.2rem 1.5rem;
+      margin-bottom: 1.5rem;
+      transition: transform 0.2s ease;
+      cursor: pointer;
+      display: block;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      background-color: rgb(26, 26, 26);
+      transition: 0.3s;
+    }
+
+    .card-title {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #64b5f6;
+      text-decoration: none;
+    }
+
+    .card-date {
+      font-size: 0.9rem;
+      color: #aaa;
+      margin-top: 0.5rem;
+    }
+    .flex-tags,
+    .flex-categories {
+      font-size: 16px;
+    }
+
+
+/* Pagination */
+    .pagination {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+
+    .pagination a {
+      display: block;
+      padding: 0.7rem 1rem;
+      margin-right: 15px;
+      color: #00ff00;
+      background-color: #121212;
+      border: 1.5px solid #00ff00;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      font-family: 'Fira Mono', monospace;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      text-align: left;
+    }
+
+    .pagination a:hover {
+      background-color: #00ff00;
+      color: #1e1e1e;
+      box-shadow: 0 0 8px #00ff00;
+    }
+
+
+/* Flex containers for tags and categories */
+
+.taxonomy-toggle-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.taxonomy-button {
+    background-color: #121212;
+    color: #00ff00;
+    border: 1.5px solid #00ff00;
+    padding: 0.1rem 0.5rem;
+    margin-top: 1rem;
+    font-family: 'Fira Code', monospace;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    text-align: center;
+}
+
+.taxonomy-button:hover {
+    background-color: #00ff00;
+    color: #1e1e1e;
+}
+
+.taxonomy-button.active {
+    background-color: #00ff00;
+    color: #1e1e1e;
+}
+
+.flex-tags,
+.flex-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 1rem;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Tag styles */
+.tag-item {
+    color: #00ff00;
+    font-family: 'Fira Code', monospace;
+    padding: 2px 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+.tag-item:hover {
+    background-color: #00ff00;
+    color: #1e1e1e;
+}
+
+/* Category styles */
+.category-item {
+    color: #00ff00;
+    font-family: 'Fira Code', monospace;
+    padding: 2px 6px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+.category-item:hover {
+    background-color: #00ff00;
+    color: #1e1e1e;
+}
 .resume-download-container {
   width: 100%;
   padding: 0 1rem;
@@ -220,6 +365,7 @@ h1, h2, h3 {
     margin-top: 20px; /* Space above headers */
 }
 
+
 p {
     margin-bottom: 15px; /* Space below paragraphs */
 }
@@ -288,7 +434,7 @@ a:active {
 }
 
 /* Android Responsive Code*/
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 800px) {
 
     body {
         display:grid;
@@ -389,4 +535,75 @@ a:active {
         padding: none;
     }
     
+/* Toggle buttons */
+    .taxonomy-toggle-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .taxonomy-button {
+      background-color: #121212;
+      color: #00ff00;
+      border: 1.5px solid #00ff00;
+      padding: 0.1rem 0.5rem;
+      margin-top: 1rem;
+      font-family: 'Fira Code', monospace;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .taxonomy-button:hover,
+    .taxonomy-button.active {
+      background-color: #00ff00;
+      color: #1e1e1e;
+    }
+
+    /* Post list cards */
+    .card {
+      background-color: #2d2d2d;
+      padding: 1.2rem 1.5rem;
+      margin-bottom: 1.5rem;
+      transition: transform 0.2s ease;
+      cursor: pointer;
+      display: block;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      background-color: rgb(26, 26, 26);
+      transition: 0.3s;
+    }
+
+    .card-title {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #64b5f6;
+      text-decoration: none;
+    }
+
+    .card-date {
+      font-size: 0.9rem;
+      color: #aaa;
+      margin-top: 0.5rem;
+    }
+    .flex-tags,
+    .flex-categories {
+      font-size: 16px;
+    }
+
+    .taxonomy-button {
+        margin-top: 0.8rem;
+        font-size: 16px;
+        border: 1px solid #00ff00;
+      }
+
+    .list-content-wrapper {
+      width: 75vw;
+    }
 }

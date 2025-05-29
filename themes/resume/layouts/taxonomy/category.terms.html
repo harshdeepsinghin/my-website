@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <div class="taxonomy-toggle-buttons">
+    <a href="/tags" class="taxonomy-button {{ if eq .Section "tags" }}active{{ end }}">Tags</a>
+    <a href="/categories" class="taxonomy-button {{ if eq .Section "categories" }}active{{ end }}">Categories</a>
+    <a href="/search" class="taxonomy-button {{ if eq .Section "search" }}active{{ end }}">Search</a>
+  </div>
+  <h1>All Categories</h1>
+  <div class="flex-categories">
+    {{ range .Data.Terms }}
+      <a href="{{ .Page.RelPermalink }}" class="category-item">[{{ .Page.Title }}]</a>
+    {{ end }}
+  </div>
+{{ end }}
