@@ -12,9 +12,37 @@ body {
     min-height: 100vh;
 }
 
+.resume-download-container {
+  width: 100%;
+  padding: 0 1rem;
+  margin: 2rem 0 1rem 0; /* removed auto to prevent center alignment */
+  display: flex;
+  justify-content: flex-start;
+}
+
+.resume-download-button {
+  display: inline-block;
+  padding: 0.7rem 1rem;
+  color: #00ff00;
+  background-color: #121212;
+  border: 1.5px solid #00ff00;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: 'Fira Code', monospace;
+  text-align: left;
+}
+.resume-download-button:hover {
+  background-color: #00ff00;
+  color: #1e1e1e;
+  box-shadow: 0 0 8px #00ff00;
+}
+
+
+
 .content {
     flex-grow: 1;
-  /* no justify-content or align-items here, content stays at top by default */
     display: flex;
     flex-direction: column;
 }
