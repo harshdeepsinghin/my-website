@@ -85,32 +85,71 @@
 <title>Harshdeep's Socials</title>
 <style>
   /* Terminal style colors */
-  
+
   #socials-title {
     font-size: 30px;
     margin-bottom: 20px;
+    text-align: center;
   }
 
   img.profile-photo {
-    align-items: center;
-    align-self: center;
+    display: block;
+    margin: 1.5rem auto;
     width: 180px;
     height: 180px;
     border: 1px solid #00ff00; /* neon green border */
     object-fit: cover;
-    margin: 1.5rem;
   }
 
-  h1 {
-  align-self: center;
+  .toggle-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .toggle-buttons button {
+    background-color: #121212;
+    color: #00ff00;
+    border: 2px solid #00ff00;
+    padding: 0.5rem 1rem;
+    font-family: 'Fira Code', monospace;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .toggle-buttons button.active {
+    background-color: #00ff00;
+    color: #1e1e1e;
+  }
+
+  .slider-wrapper {
+    width: 90vw;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    transition: height 0.3s ease;
+  }
+
+  .slider-pane {
+    padding: 1rem;
+    box-sizing: border-box;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slider-pane.active {
+    display: block;
   }
 
   ul.social-list {
-    align-self: center;
     list-style: none;
     padding: 0;
-    margin: 0;
-    width: 40vw;
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
   }
 
   ul.social-list li {
@@ -141,32 +180,23 @@
     height: 20px;
     margin-right: 10px;
     filter: invert(67%) sepia(91%) saturate(394%) hue-rotate(77deg) brightness(94%) contrast(88%);
-    transition: filter 0.3s ease; /* Optional: smooth transition */
+    transition: filter 0.3s ease;
   }
 
   ul.social-list a:hover .favicon {
     filter: none;
   }
 
-
-
   /* Responsive */
-@media only screen and (max-width: 800px) {
-    ul.social-list {
-      width: 100%;
-    }
-    ul.social-list {
-      align-self: center;
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      width: 70vw;
-    }
+  @media only screen and (max-width: 800px) {
     #socials-title {
-      font-size:18px; 
+      font-size: 18px;
       margin-bottom: 10px;
     }
-  
+    ul.social-list {
+      max-width: 100%;
+      width: 90vw;
+    }
   }
 </style>
 </head>
@@ -178,52 +208,96 @@
   />
   <h1 id="socials-title">Connect with Harshdeep Singh</h1>
 
-  <ul class="social-list">
-    <li><a href="mailto:contact@harshdeepsingh.in" target="_blank" rel="noopener noreferrer">
-      <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" class="favicon" />
-      Email
-    </a></li>
+  <div class="toggle-buttons">
+    <button id="btn-community">Communities</button>
+    <button id="btn-professional" class="active">Professional</button>
+    <button id="btn-personal">Personal</button>
+  </div>
 
-    <li><a href="https://www.linkedin.com/in/harshdeepsinghin/" target="_blank" rel="noopener noreferrer">
-      <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="favicon" />
-      LinkedIn
-    </a></li>
+  <div class="slider-wrapper" id="sliderWrapper">
+    <div class="slider-container" id="slider">
 
-    <li><a href="https://github.com/harshdeepsinghin" target="_blank" rel="noopener noreferrer">
-      <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" class="favicon" />
-      GitHub
-    </a></li>
+      <!-- Community Section -->
+      <div class="slider-pane" id="community">
+        <ul class="social-list">
+          <li><a href="https://t.me/linuxwale" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" class="favicon" /> Telegram - LinuxWale
+          </a></li>
+          <li><a href="https://t.me/quotesthathitushard" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" class="favicon" /> Telegram - Quotes That Hit Us Hard
+          </a></li>
+          <li><a href="https://t.me/hiphopindiacommunity" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" class="favicon" /> Telegram - Hip Hop India Community
+          </a></li>
 
-    <li><a href="https://www.instagram.com/harshdeepsinghin" target="_blank" rel="noopener noreferrer">
-      <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" class="favicon" />
-      Instagram
-    </a></li>
+        </ul>
+      </div>
 
-    <li><a href="https://t.me/linuxwale" target="_blank" rel="noopener noreferrer">
-      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" class="favicon" />
-      Telegram - LinuxWale
-    </a></li>
+      <!-- Professional Section -->
+      <div class="slider-pane active" id="professional">
+        <ul class="social-list">
+          <li><a href="mailto:contact@harshdeepsingh.in" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" class="favicon" /> Email
+          </a></li>
+          <li><a href="https://www.linkedin.com/in/harshdeepsinghin/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="favicon" /> LinkedIn
+          </a></li>
+          <li><a href="https://github.com/harshdeepsinghin" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" class="favicon" /> GitHub
+          </a></li>
+          <li><a href="https://www.instagram.com/harshdeepsinghin" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" class="favicon" /> Instagram
+          </a></li>
+        </ul>
+      </div>
 
-    <li><a href="https://www.instagram.com/wibesofindie" target="_blank" rel="noopener noreferrer">
-      <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" class="favicon" />
-      Instagram - Wibes of Indie
-    </a></li>
 
-    <li><a href="https://t.me/harshluckyme" target="_blank" rel="noopener noreferrer">
-      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" class="favicon" />
-      Telegram - Me
-    </a></li>
+      <!-- Personal Section -->
+      <div class="slider-pane" id="personal">
+        <ul class="social-list">
+          <li><a href="https://t.me/harshluckyme" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" class="favicon" /> Telegram
+          </a></li>
+          <li><a href="https://www.instagram.com/harshluckyme" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" class="favicon" /> Instagram
+          </a></li>
+          <li><a href="https://open.spotify.com/user/zgearbiszvaowgdl6yvyx362k" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174872.png" class="favicon" /> Spotify
+          </a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
 
-    <li><a href="https://www.instagram.com/harshluckyme" target="_blank" rel="noopener noreferrer">
-      <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" class="favicon" />
-      Instagram - Me
-    </a></li>
+  <script>
+  const btnCommunity = document.getElementById('btn-community');
+  const btnProfessional = document.getElementById('btn-professional');
+  const btnPersonal = document.getElementById('btn-personal');
+  const wrapper = document.getElementById('sliderWrapper');
+  const panes = {
+    community: document.getElementById('community'),
+    professional: document.getElementById('professional'),
+    personal: document.getElementById('personal')
+  };
 
-    <li><a href="https://open.spotify.com/user/zgearbiszvaowgdl6yvyx362k" target="_blank" rel="noopener noreferrer">
-      <img src="https://cdn-icons-png.flaticon.com/512/174/174872.png" alt="Spotify" class="favicon" />
-      Spotify
-    </a></li>
-  </ul>
+  function showPane(type) {
+    Object.values(panes).forEach(p => p.classList.remove('active'));
+    panes[type].classList.add('active');
+    wrapper.style.height = panes[type].scrollHeight + 'px';
+    btnCommunity.classList.toggle('active', type === 'community');
+    btnProfessional.classList.toggle('active', type === 'professional');
+    btnPersonal.classList.toggle('active', type === 'personal');
+  }
+
+  window.addEventListener('DOMContentLoaded', () => {
+    showPane('professional');
+  });
+
+  btnCommunity.addEventListener('click', () => showPane('community'));
+  btnProfessional.addEventListener('click', () => showPane('professional'));
+  btnPersonal.addEventListener('click', () => showPane('personal'));
+  </script>
 </body>
 </html>
 
