@@ -261,6 +261,21 @@ a:active {
         display:grid;
         padding:0;
     }
+
+    .header {
+        font-size: 14px;
+    }
+    .main-pages-links {
+        font-size: 18px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .main-pages-links-home {
+        font-size: 18px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
     .section-toc {
         display:none;
         position: sticky;
