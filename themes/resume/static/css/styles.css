@@ -166,6 +166,11 @@ code {
     margin: 0;
 }
 
+.heading {
+font-family: 'Press Start 2P', cursive, monospace;
+font-size: 30px;
+}
+
 .header{
     display:grid;
     width: 100vw;
@@ -292,6 +297,9 @@ a:active {
 
     .header {
         font-size: 14px;
+    }
+    .heading {
+        font-size: 24px;
     }
     .main-pages-links {
         font-size: 18px;
