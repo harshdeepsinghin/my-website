@@ -12,6 +12,12 @@ body {
     min-height: 100vh;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
 /* Search wrapper to center and add spacing */
 .search-wrapper {
   border: 1.5px solid #00ff00;
