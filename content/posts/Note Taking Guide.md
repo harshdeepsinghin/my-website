@@ -4,7 +4,7 @@ tags: ["Notes", "Productivity"]
 categories: ["Tips", "Productivity"]
 title: "Note Taking Guide"
 description: "Three concepts for note taking."
-toc: true
+toc: false
 sections:
   - id: freelining
     title: "Freelining"
