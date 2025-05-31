@@ -1,15 +1,56 @@
-
 {{ define "main" }}
-    <div class="content">
-        {{ if eq .File.BaseFileName "resume" }}
-            <div class="resume-download-container">
-                <a href="/files/Harshdeep_Singh_Resume_2025.pdf" class="resume-download-button" download>
-                ⬇ Download Resume (PDF)
-                </a>
-            </div>
-        {{ end }}
+<div class="content">
 
+    {{ if eq .Type "posts" }}
+        <div class="post-meta-container">
 
-        {{ .Content }}
+            <!-- Title -->
+            <h1>{{ .Title }}</h1>
+
+            <!-- Date -->
+            <p class="post-meta">
+                Published on {{ .Date.Format "2 January 2006" }}
+            </p>
+
+            <!-- Categories -->
+            {{ with .Params.categories }}
+                <p class="post-categories">
+                Categories: 
+                {{ range $index, $cat := . }}
+                    {{ if $index }}{{ end }}<a href="{{ "/categories/" | relLangURL }}{{ $cat | urlize }}">[{{ $cat }}]</a>
+                {{ end }}
+                </p>
+            {{ end }}
+
+            <!-- Tags -->
+            {{ with .Params.tags }}
+                <p class="post-tags">
+                Tags: 
+                {{ range $index, $tag := . }}
+                    {{ if $index }}{{ end }}<a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}">#{{ $tag }}</a>
+                {{ end }}
+                </p>
+            {{ end }}
+    {{ end }}
+
     </div>
+
+  <!-- Permalink (optional, usually not shown visibly) -->
+  <!-- <p>{{ .RelPermalink }}</p> -->
+
+  <!-- Resume download logic -->
+  {{ if eq .File.BaseFileName "resume" }}
+    <div class="resume-download-container">
+      <a href="/files/Harshdeep_Singh_Resume_2025.pdf" class="resume-download-button" download>
+        ⬇ Download Resume (PDF)
+      </a>
+    </div>
+  {{ end }}
+
+  <!-- Post Content -->
+  <div class="post-body">
+    {{ .Content }}
+  </div>
+
+</div>
 {{ end }}

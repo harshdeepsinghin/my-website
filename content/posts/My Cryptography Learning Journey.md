@@ -5,11 +5,7 @@ tags: ["cryptography", "RSA", "Diffie-Hellman", "security"]
 categories: ["Guide"]
 draft: false
 ---
-
-# My Cryptography Learning Journey
-
-Here's the path I followed to learn about cryptography, focusing mainly on RSA and Diffie-Hellman key exchange.  
-Videos maybe out of order, I'll fix them soon...
+This post documents my personal journey of learning cryptography, especially focusing on RSA and Diffie-Hellman. I’ve curated and organized the exact resources, videos, and concepts I used—starting from foundational math to public key cryptography. If you're someone starting out or struggling with the core ideas, this learning path might give you the clarity and structure you need.
 
 ## 1. Cryptography Fundamentals
 

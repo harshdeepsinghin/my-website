@@ -9,11 +9,8 @@ sections:
   - id: freelining
     title: "Freelining"
 ---
+In this guide, I’ve shared three simple yet powerful note-taking techniques I learned from Nick Milo: Freelining, Freetalking, and Freewriting. These methods have helped me brain-dump thoughts quickly with less friction, making it easier to think clearly and capture ideas in real time. Whether I'm typing in Obsidian or jotting things on paper, these techniques let me get my thoughts out without judgment, structure, or overthinking—and that’s the whole point.
 
-## ⭐️ Context
-This note is about 3 fun and easy techniques of brain-dumping your thoughts as soon as they strikes your mind.
-
-## 📝 Content
 ### Introduction
 - Note taking starts with dumping your first ideas on paper.
 - The first spark of thought should be dumped on paper as soon as the thought resonates you.

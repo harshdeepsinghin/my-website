@@ -13,6 +13,7 @@ params:
       url: "https://www.linkedin.com/in/harshdeepsinghin/"
     - name: "Github"
       url: "https://github.com/harshdeepsinghin"
+  ShowCodeCopyButtons: true
 
 markup:
   highlight:
@@ -29,4 +30,3 @@ outputs:
   section:
     - HTML
     - JSON
-

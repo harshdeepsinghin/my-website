@@ -17,6 +17,31 @@ html, body {
   overflow-x: hidden;
 }
 
+.post-meta-container {
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 0.5px solid #00ff00;
+}
+
+.post-meta-container h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-meta, .post-categories, .post-tags {
+  font-size: 0.95rem;
+  color: #ccc;
+  margin: 0.3rem 0;
+}
+
+.post-categories a,
+.post-tags a {
+  text-decoration: none;
+  color: #007acc;
+  margin-right: 0.5rem;
+}
+
+
 
 /* Search wrapper to center and add spacing */
 .search-wrapper {
@@ -102,6 +127,10 @@ html, body {
       transform: translateY(-4px);
       background-color: rgb(26, 26, 26);
       transition: 0.3s;
+    }
+
+    .card:hover .card-title {
+      color: #00ff00;
     }
 
     .card-title {
@@ -674,5 +703,9 @@ a:active {
 
     .list-content-wrapper {
       width: 75vw;
+    }
+
+    .post-meta, .post-categories, .post-tags {
+      font-size: 0.8rem;
     }
 }

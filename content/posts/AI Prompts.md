@@ -5,13 +5,9 @@ categories: ["Tips", "Productivity"]
 title: "AI Prompts"
 description: "These are some AI prompts I use very frequently."
 ---
+Here is a curated collection of AI prompts that I use regularly to study smarter, break down syllabus, analyze previous year questions, write documentation, and boost productivity using ChatGPT and other AI tools. Designed for students, learners, and creators who want to get the most out of AI assistance.
 
-## ⭐️ Context
-This note is about some AI prompts i frequently use.
-
-## 📝 Content
-
-#### Syllabus to Tasks
+### Syllabus to Tasks
 ```
 I will provide you with a syllabus. Your task is to break it down into a set of Markdown tasks, structured as follows:
 
@@ -51,7 +47,7 @@ Copy code
 Please ensure all details from the syllabus are included in the breakdown, and structure the tasks as actionable learning objectives or key topics to review.
 ```
 
-#### Syllabus Skimming
+### Syllabus Skimming
 ```
 Act as a <SUBJECT> expert and guide me through my syllabus by providing an overview or idea of each topic. Start with the first topic and give a brief idea about it. Don’t give details about all topics at once—keep going only when I say 'next.' I want to get an idea of each topic before diving into deep study, so I can skim through the subject. If I say 'more,' elaborate on the topic in detail.
 
@@ -60,7 +56,7 @@ With every topic, give the associated keywords.
 <SYLLABUS>
 ```
 
-#### Depth Subject Study
+### Depth Subject Study
 
 ```
 Act as a <SUBJECT> expert in and guide me through the following syllabus, one item at a time. Each item—whether a main topic or a subtopic—should be treated as an **individual, deeply detailed thread**.
@@ -112,14 +108,14 @@ Here is the syllabus:
 <SYLLABUS>
 ```
 
-#### Random Topic Revision
+### Random Topic Revision
 ```
 Given a list of topics in my syllabus, pick a random topic for me to review. Each time I say 'next,' provide a different topic from the list, one by one, in a random order, until all topics are covered, then start again in a spaced repetition cycle. If I say 'help,' give me small hints to help me recall the topic without actually describing it directly.
 
 <SYLLABUS>
 ```
 
-#### Technical Documentation Writer
+### Technical Documentation Writer
 
 ```
 Act as a professional technical documentation writer
@@ -129,7 +125,7 @@ i will keep providing you my codes and readmes
 u just wait until i say you to give me the documentation
 ```
 
-#### PYQs Insights
+### PYQs Insights
 ```
 I will provide multiple Previous Year Questions (PYQs) text one by one. You will extract, store, and organize the topics, subtopics, and question frequency but **wait for my explicit instruction** to analyze or summarize the data.
 
@@ -146,7 +142,7 @@ At the end, I will upload the text of my current syllabus. Based on the syllabus
 Finally, help me focus on important topics to maximize marks with this smart practice.
 ```
 
-#### DeepSeek Text Concatenation
+### DeepSeek Text Concatenation
 ```
 I will provide you with multiple ChatGPT conversation texts. Your task is to combine all the content into one single file without modifying, editing, or altering any of the original text. Simply concatenate all the provided conversations in the exact order they are given, preserving all formatting, spacing, and punctuation. Do not add any headers, footers, or separators between the conversations—just append each new text directly to the end of the previous one. Confirm when ready for the first input.
 
