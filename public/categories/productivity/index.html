@@ -14,6 +14,31 @@
 
 </head>
 <style>
+     
+    .swipe-notification {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.9);
+      color: #00ff00;
+      padding: 15px 25px;
+      border: 1px solid #00ff00;
+      border-radius: 8px;
+      font-family: 'Fira Code', monospace;
+      font-size: 14px;
+      z-index: 9999;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+      text-align: center;
+      max-width: 280px;
+    }
+
+    .swipe-notification.show {
+      opacity: 1;
+    }
+
     @media only screen and (max-width: 800px) {
         .site-footer {
             font-size: 14px;
@@ -118,6 +143,113 @@
   </div>
 </footer>
 
+
+    
+    <div id="swipe-notification" class="swipe-notification"></div>
+
+    <script>
+      
+      class SwipeNavigation {
+        constructor() {
+          this.pages = [
+            { name: 'Home', url: '/' },
+            { name: 'Socials', url: '/socials/' },
+            { name: 'Posts', url: '/posts/' },
+            { name: 'Resume', url: '/resume/' },
+            { name: 'About', url: '/about/' }
+          ];
+          
+          this.currentPageIndex = this.getCurrentPageIndex();
+          this.touchStartX = 0;
+          this.touchEndX = 0;
+          this.minSwipeDistance = 50;
+          this.notification = document.getElementById('swipe-notification');
+          
+          this.init();
+        }
+
+        getCurrentPageIndex() {
+          const currentPath = window.location.pathname;
+          const index = this.pages.findIndex(page => page.url === currentPath);
+          return index !== -1 ? index : 0;
+        }
+
+        init() {
+          
+          document.addEventListener('touchstart', (e) => this.handleTouchStart(e), { passive: true });
+          document.addEventListener('touchend', (e) => this.handleTouchEnd(e), { passive: true });
+        }
+
+        handleTouchStart(e) {
+          this.touchStartX = e.changedTouches[0].screenX;
+        }
+
+        handleTouchEnd(e) {
+          this.touchEndX = e.changedTouches[0].screenX;
+          this.handleSwipe();
+        }
+
+        handleSwipe() {
+          const swipeDistance = this.touchStartX - this.touchEndX;
+          
+          if (Math.abs(swipeDistance) < this.minSwipeDistance) {
+            return; 
+          }
+
+          if (swipeDistance > 0) {
+            
+            this.navigateNext();
+          } else {
+            
+            this.navigatePrevious();
+          }
+        }
+
+        navigateNext() {
+          if (this.currentPageIndex < this.pages.length - 1) {
+            const nextPageIndex = this.currentPageIndex + 1;
+            const nextPage = this.pages[nextPageIndex];
+            this.showNotification(`Navigating to ${nextPage.name}...`);
+            
+            setTimeout(() => {
+              window.location.href = nextPage.url;
+            }, 500);
+          } else {
+            
+            this.showNotification('No more pages<br>← Swipe left for previous pages');
+          }
+        }
+
+        navigatePrevious() {
+          if (this.currentPageIndex > 0) {
+            const prevPageIndex = this.currentPageIndex - 1;
+            const prevPage = this.pages[prevPageIndex];
+            this.showNotification(`Navigating to ${prevPage.name}...`);
+            
+            setTimeout(() => {
+              window.location.href = prevPage.url;
+            }, 500);
+          } else {
+            
+            this.showNotification('Already at Home<br>→ Swipe right for next pages');
+          }
+        }
+
+        showNotification(message) {
+          this.notification.innerHTML = message;
+          this.notification.classList.add('show');
+          
+          setTimeout(() => {
+            this.notification.classList.remove('show');
+          }, 2000);
+        }
+      }
+
+      
+      document.addEventListener('DOMContentLoaded', () => {
+        new SwipeNavigation();
+      });
+    </script>
 </body>
 
 </html>
