@@ -541,10 +541,16 @@ a:active {
 
     .header {
         font-size: 14px;
+        padding: 0 10px; /* Add horizontal padding to prevent edge overflow */
     }
     .heading {
-        font-size: 24px;
+        font-size: 20px; /* Reduced from 24px for better fit */
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
+        line-height: 1.2;
     }
+}
     .main-pages-links {
         font-size: 18px;
         margin-top: 0px;
@@ -707,5 +713,22 @@ a:active {
 
     .post-meta, .post-categories, .post-tags {
       font-size: 0.8rem;
+    }
+}
+
+/* Extra small screens (very narrow Android phones) */
+@media only screen and (max-width: 480px) {
+    .header {
+        padding: 0 5px; /* Tighter padding for very small screens */
+    }
+    
+    .heading {
+        font-size: 18px; /* Even smaller font for very narrow screens */
+        line-height: 1.1;
+    }
+    
+    .main-pages-links,
+    .main-pages-links-home {
+        font-size: 16px; /* Slightly smaller nav links */
     }
 }

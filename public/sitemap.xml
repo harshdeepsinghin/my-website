@@ -2,69 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/ai/</loc>
+    <loc>http://localhost:1313/my-website/tags/ai/</loc>
     <lastmod>2024-10-09T12:59:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ai-prompts/</loc>
+    <loc>http://localhost:1313/my-website/posts/ai-prompts/</loc>
     <lastmod>2024-10-09T12:59:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/my-website/categories/</loc>
     <lastmod>2024-10-09T12:59:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/chatgpt/</loc>
+    <loc>http://localhost:1313/my-website/tags/chatgpt/</loc>
     <lastmod>2024-10-09T12:59:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/my-website/</loc>
     <lastmod>2024-10-09T12:59:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/my-website/posts/</loc>
     <lastmod>2024-10-09T12:59:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/productivity/</loc>
+    <loc>http://localhost:1313/my-website/categories/productivity/</loc>
     <lastmod>2024-10-09T12:59:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/productivity/</loc>
+    <loc>http://localhost:1313/my-website/tags/productivity/</loc>
     <lastmod>2024-10-09T12:59:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/prompts/</loc>
+    <loc>http://localhost:1313/my-website/tags/prompts/</loc>
     <lastmod>2024-10-09T12:59:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/my-website/tags/</loc>
     <lastmod>2024-10-09T12:59:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/tips/</loc>
+    <loc>http://localhost:1313/my-website/categories/tips/</loc>
     <lastmod>2024-10-09T12:59:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/note-taking-guide/</loc>
+    <loc>http://localhost:1313/my-website/posts/note-taking-guide/</loc>
     <lastmod>2024-09-30T17:07:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/notes/</loc>
+    <loc>http://localhost:1313/my-website/tags/notes/</loc>
     <lastmod>2024-09-30T17:07:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cryptography/</loc>
+    <loc>http://localhost:1313/my-website/tags/cryptography/</loc>
     <lastmod>2023-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/diffie-hellman/</loc>
+    <loc>http://localhost:1313/my-website/tags/diffie-hellman/</loc>
     <lastmod>2023-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/guide/</loc>
+    <loc>http://localhost:1313/my-website/categories/guide/</loc>
     <lastmod>2023-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-cryptography-learning-journey/</loc>
+    <loc>http://localhost:1313/my-website/posts/my-cryptography-learning-journey/</loc>
     <lastmod>2023-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/rsa/</loc>
+    <loc>http://localhost:1313/my-website/tags/rsa/</loc>
     <lastmod>2023-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/security/</loc>
+    <loc>http://localhost:1313/my-website/tags/security/</loc>
     <lastmod>2023-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:1313/my-website/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/resume/</loc>
+    <loc>http://localhost:1313/my-website/resume/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>http://localhost:1313/my-website/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/socials/</loc>
+    <loc>http://localhost:1313/my-website/socials/</loc>
   </url>
 </urlset>
