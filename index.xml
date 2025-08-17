@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Harshdeep Singh</title><link>https://harshdeepsingh.in/</link><description>Recent content in Home on Harshdeep Singh</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 09 Oct 2024 12:59:00 +0000</lastBuildDate><atom:link href="https://harshdeepsingh.in/index.xml" rel="self" type="application/rss+xml"/><item><title>AI Prompts</title><link>https://harshdeepsingh.in/posts/ai-prompts/</link><pubDate>Wed, 09 Oct 2024 12:59:00 +0000</pubDate><guid>https://harshdeepsingh.in/posts/ai-prompts/</guid><description>&lt;p>Here is a curated collection of AI prompts that I use regularly to study smarter, break down syllabus, analyze previous year questions, write documentation, and boost productivity using ChatGPT and other AI tools. Designed for students, learners, and creators who want to get the most out of AI assistance.&lt;/p>
+&lt;h3 id="syllabus-to-tasks">Syllabus to Tasks&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">I will provide you with a syllabus. Your task is to break it down into a set of Markdown tasks, structured as follows:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Use unit titles as headings (##) with lecture hours mentioned in parentheses.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Break down each unit into detailed subtasks (- [ ]), including subtopics or concepts.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">For topics with further subdivisions, use indented subtasks (- [ ] followed by - [ ] or - [ ] for further nesting).
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Group related topics under appropriate sections like Process Management or Thread Management, ensuring logical organisation.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Here’s an example format:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">markdown
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Copy code
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">## Unit I: [Unit Name] ([Lecture Hours] Lecture Hours)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- [ ] [Main Topic]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- [ ] [Another Main Topic]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] [Subtopic 1]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] [Subtopic 2]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] [Subtopic 3]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- [ ] [Next Main Topic]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] [Subtopic]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] [Further Subdivision]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- [ ] [Additional Topics]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">## Unit II: [Next Unit Name] ([Lecture Hours] Lecture Hours)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">### [Subsection Title]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- [ ] [Main Topic]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- [ ] [Another Main Topic]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] [Subtopic 1]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] [Subtopic 2]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] [Further Detail]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">### Case Study
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- [ ] [Specific Case Study Topic]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Please ensure all details from the syllabus are included in the breakdown, and structure the tasks as actionable learning objectives or key topics to review.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="syllabus-skimming">Syllabus Skimming&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Act as a &amp;lt;SUBJECT&amp;gt; expert and guide me through my syllabus by providing an overview or idea of each topic. Start with the first topic and give a brief idea about it. Don’t give details about all topics at once—keep going only when I say &amp;#39;next.&amp;#39; I want to get an idea of each topic before diving into deep study, so I can skim through the subject. If I say &amp;#39;more,&amp;#39; elaborate on the topic in detail.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">With every topic, give the associated keywords.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;lt;SYLLABUS&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="depth-subject-study">Depth Subject Study&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Act as a &amp;lt;SUBJECT&amp;gt; expert in and guide me through the following syllabus, one item at a time. Each item—whether a main topic or a subtopic—should be treated as an **individual, deeply detailed thread**.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">For each topic or subtopic, provide:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- A thorough explanation of all related concepts, theories, and mechanisms
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- Practical applications and real-world examples to enhance understanding
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- Definitions and explanations of all important terms
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- Related prerequisite knowledge, and if covered earlier, refer back to it
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- References to previously discussed material where relevant
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- Socratic-style questions to test my understanding and provoke critical thinking
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- A smooth structure starting from basics to advanced insights where applicable
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">### ✅ **Optional Example Usage:**
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">If the syllabus is:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- [ ] Introduction to Software Reliability 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] Hardware vs. Software Reliability 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] Reliability Metrics 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- [ ] Failure and Faults 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] Prevention 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] Removal 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] Tolerance 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] Forecasting
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Then ChatGPT should respond like this:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;gt; ✅ **Introduction to Software Reliability** 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;gt; _[Full-depth explanation with examples, keyword definitions, and critical thinking questions]_ 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;gt; _(Waits for “next” or “more”)_
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Then:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;gt; ✅ **Hardware vs. Software Reliability** 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;gt; _[Explanation, plus reference back to “Introduction to Software Reliability” if needed]_ 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;gt; _(Waits for “next” or “more”)_
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">And so on.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">⏳ Only proceed to the **next item** when I say **&amp;#34;next.&amp;#34;** 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">🔁 If I say **&amp;#34;more,&amp;#34;** expand on the current topic with **deeper details, advanced knowledge, or extra examples.** 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">🔗 If a topic depends on prior topics, point that out and briefly recap or link back to them.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Do **not** skip any item, regardless of whether it’s a main topic or a subtopic.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Here is the syllabus:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;lt;SYLLABUS&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="random-topic-revision">Random Topic Revision&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Given a list of topics in my syllabus, pick a random topic for me to review. Each time I say &amp;#39;next,&amp;#39; provide a different topic from the list, one by one, in a random order, until all topics are covered, then start again in a spaced repetition cycle. If I say &amp;#39;help,&amp;#39; give me small hints to help me recall the topic without actually describing it directly.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;lt;SYLLABUS&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="technical-documentation-writer">Technical Documentation Writer&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Act as a professional technical documentation writer
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">and help me in writing documentation for my project
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">i will keep providing you my codes and readmes
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">u just wait until i say you to give me the documentation
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="pyqs-insights">PYQs Insights&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">I&lt;/span> &lt;span class="n">will&lt;/span> &lt;span class="n">provide&lt;/span> &lt;span class="n">multiple&lt;/span> &lt;span class="n">Previous&lt;/span> &lt;span class="n">Year&lt;/span> &lt;span class="n">Questions&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">PYQs&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="n">text&lt;/span> &lt;span class="n">one&lt;/span> &lt;span class="n">by&lt;/span> &lt;span class="n">one&lt;/span>&lt;span class="o">.&lt;/span> &lt;span class="n">You&lt;/span> &lt;span class="n">will&lt;/span> &lt;span class="n">extract&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">store&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="ow">and&lt;/span> &lt;span class="n">organize&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">topics&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">subtopics&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="ow">and&lt;/span> &lt;span class="n">question&lt;/span> &lt;span class="n">frequency&lt;/span> &lt;span class="n">but&lt;/span> &lt;span class="o">**&lt;/span>&lt;span class="n">wait&lt;/span> &lt;span class="k">for&lt;/span> &lt;span class="n">my&lt;/span> &lt;span class="n">explicit&lt;/span> &lt;span class="n">instruction&lt;/span>&lt;span class="o">**&lt;/span> &lt;span class="n">to&lt;/span> &lt;span class="n">analyze&lt;/span> &lt;span class="ow">or&lt;/span> &lt;span class="n">summarize&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">data&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">At&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">end&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">I&lt;/span> &lt;span class="n">will&lt;/span> &lt;span class="n">upload&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">text&lt;/span> &lt;span class="n">of&lt;/span> &lt;span class="n">my&lt;/span> &lt;span class="n">current&lt;/span> &lt;span class="n">syllabus&lt;/span>&lt;span class="o">.&lt;/span> &lt;span class="n">Based&lt;/span> &lt;span class="n">on&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">syllabus&lt;/span> &lt;span class="ow">and&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">stored&lt;/span> &lt;span class="n">PYQ&lt;/span> &lt;span class="n">data&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mf">1.&lt;/span> &lt;span class="o">**&lt;/span>&lt;span class="n">Identify&lt;/span> &lt;span class="n">topics&lt;/span>&lt;span class="o">**&lt;/span> &lt;span class="n">that&lt;/span> &lt;span class="n">appear&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">syllabus&lt;/span> &lt;span class="ow">and&lt;/span> &lt;span class="n">match&lt;/span> &lt;span class="n">them&lt;/span> &lt;span class="n">with&lt;/span> &lt;span class="n">PYQ&lt;/span> &lt;span class="n">coverage&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mf">2.&lt;/span> &lt;span class="o">**&lt;/span>&lt;span class="n">Provide&lt;/span> &lt;span class="n">insights&lt;/span>&lt;span class="o">**&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">such&lt;/span> &lt;span class="n">as&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">-&lt;/span> &lt;span class="n">The&lt;/span> &lt;span class="n">number&lt;/span> &lt;span class="n">of&lt;/span> &lt;span class="n">times&lt;/span> &lt;span class="n">each&lt;/span> &lt;span class="n">topic&lt;/span> &lt;span class="n">has&lt;/span> &lt;span class="n">appeared&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="n">PYQs&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">-&lt;/span> &lt;span class="n">Weightage&lt;/span> &lt;span class="n">distribution&lt;/span> &lt;span class="n">across&lt;/span> &lt;span class="n">topics&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">-&lt;/span> &lt;span class="n">Trends&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="n">question&lt;/span> &lt;span class="n">frequency&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mf">3.&lt;/span> &lt;span class="o">**&lt;/span>&lt;span class="n">Analyze&lt;/span> &lt;span class="n">topic&lt;/span> &lt;span class="n">interrelations&lt;/span>&lt;span class="o">**&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">identifying&lt;/span> &lt;span class="n">questions&lt;/span> &lt;span class="ow">or&lt;/span> &lt;span class="n">concepts&lt;/span> &lt;span class="n">that&lt;/span> &lt;span class="n">combine&lt;/span> &lt;span class="n">multiple&lt;/span> &lt;span class="n">topics&lt;/span> &lt;span class="ow">or&lt;/span> &lt;span class="n">subtopics&lt;/span> &lt;span class="n">to&lt;/span> &lt;span class="n">help&lt;/span> &lt;span class="n">me&lt;/span> &lt;span class="n">study&lt;/span> &lt;span class="n">them&lt;/span> &lt;span class="n">holistically&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Finally&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">help&lt;/span> &lt;span class="n">me&lt;/span> &lt;span class="n">focus&lt;/span> &lt;span class="n">on&lt;/span> &lt;span class="n">important&lt;/span> &lt;span class="n">topics&lt;/span> &lt;span class="n">to&lt;/span> &lt;span class="n">maximize&lt;/span> &lt;span class="n">marks&lt;/span> &lt;span class="n">with&lt;/span> &lt;span class="n">this&lt;/span> &lt;span class="n">smart&lt;/span> &lt;span class="n">practice&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="deepseek-text-concatenation">DeepSeek Text Concatenation&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">I will provide you with multiple ChatGPT conversation texts. Your task is to combine all the content into one single file without modifying, editing, or altering any of the original text. Simply concatenate all the provided conversations in the exact order they are given, preserving all formatting, spacing, and punctuation. Do not add any headers, footers, or separators between the conversations—just append each new text directly to the end of the previous one. Confirm when ready for the first input.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">This ensures: 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">1. **No data changes** (original text preserved exactly) 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2. **Simple concatenation** (no added separators or metadata) 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">3. **Clear instructions** for batch processing (mention &amp;#34;single file&amp;#34; and &amp;#34;big text&amp;#34;) 
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Note Taking Guide</title><link>https://harshdeepsingh.in/posts/note-taking-guide/</link><pubDate>Mon, 30 Sep 2024 17:07:00 +0000</pubDate><guid>https://harshdeepsingh.in/posts/note-taking-guide/</guid><description>&lt;p>In this guide, I’ve shared three simple yet powerful note-taking techniques I learned from Nick Milo: Freelining, Freetalking, and Freewriting. These methods have helped me brain-dump thoughts quickly with less friction, making it easier to think clearly and capture ideas in real time. Whether I&amp;rsquo;m typing in Obsidian or jotting things on paper, these techniques let me get my thoughts out without judgment, structure, or overthinking—and that’s the whole point.&lt;/p></description></item><item><title>My Cryptography Learning Journey</title><link>https://harshdeepsingh.in/posts/my-cryptography-learning-journey/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://harshdeepsingh.in/posts/my-cryptography-learning-journey/</guid><description>&lt;p>This post documents my personal journey of learning cryptography, especially focusing on RSA and Diffie-Hellman. I’ve curated and organized the exact resources, videos, and concepts I used—starting from foundational math to public key cryptography. If you&amp;rsquo;re someone starting out or struggling with the core ideas, this learning path might give you the clarity and structure you need.&lt;/p>
+&lt;h2 id="1-cryptography-fundamentals">1. Cryptography Fundamentals&lt;/h2>
+&lt;p>First, I built my foundation with these resources:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://pastebin.com/druLLMUz">Cybrary Cryptography Course&lt;/a>&lt;/li>
+&lt;li>Hash Concepts Explained&lt;br>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/b4b8ktEV4Bg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+ &lt;/div>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-cryptography-basics">2. Cryptography Basics&lt;/h2>
+&lt;p>These videos helped me understand core concepts:&lt;/p></description></item><item><title>About</title><link>https://harshdeepsingh.in/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://harshdeepsingh.in/about/</guid><description>&lt;h2 id="about-harshdeep-singh">About Harshdeep Singh&lt;/h2>
+&lt;p>Hi! I&amp;rsquo;m &lt;strong>Harshdeep Singh&lt;/strong>, a passionate problem solver and tech enthusiast with a deep love for cybersecurity, Linux, and open-source software. I thrive on learning, creating, and sharing knowledge — always pushing the boundaries of what technology can do.&lt;/p>
+&lt;h2 id="who-i-am">Who I Am&lt;/h2>
+&lt;ul>
+&lt;li>A rational thinker and critical problem solver who enjoys tackling complex challenges with logic and creativity.&lt;/li>
+&lt;li>A lifelong learner, constantly exploring new tech, methodologies, and frameworks.&lt;/li>
+&lt;li>An extroverted debater and communicator, confident in public speaking and driven by curiosity.&lt;/li>
+&lt;li>A musician and performer, blending creativity with analytical thinking — from songwriting and rapping to playing guitar, congo, and drums.&lt;/li>
+&lt;li>An active Linux user and advocate, currently running Arch-based CachyOS with a history of exploring Debian and more.&lt;/li>
+&lt;/ul>
+&lt;h2 id="my-passions">My Passions&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Cybersecurity:&lt;/strong> Diving deep into security research, ethical hacking, and protecting digital ecosystems.&lt;/li>
+&lt;li>&lt;strong>Linux &amp;amp; FOSS:&lt;/strong> Exploring, customizing, and contributing to free and open-source software communities.&lt;/li>
+&lt;li>&lt;strong>Productivity &amp;amp; Second Brain:&lt;/strong> Mastering note-taking, organization, and knowledge management to optimize learning and execution.&lt;/li>
+&lt;li>&lt;strong>Music &amp;amp; Dance:&lt;/strong> Creative outlets that keep me balanced and inspired.&lt;/li>
+&lt;li>&lt;strong>Debating &amp;amp; Socializing:&lt;/strong> Engaging in meaningful discussions and constantly sharpening my communication skills.&lt;/li>
+&lt;/ul>
+&lt;h2 id="skills--expertise">Skills &amp;amp; Expertise&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Programming Languages:&lt;/strong> Proficient in C, Python, Shell scripting (Bash, Fish, Zsh), and beginner-level Java.&lt;/li>
+&lt;li>&lt;strong>Markup &amp;amp; Documentation:&lt;/strong> Skilled in Markdown, YAML, HTML for creating clear and effective documentation.&lt;/li>
+&lt;li>&lt;strong>Databases:&lt;/strong> Comfortable with SQL, MySQL, and MariaDB.&lt;/li>
+&lt;li>&lt;strong>Operating Systems:&lt;/strong> Experienced with Linux (Arch, Debian), macOS, and Windows.&lt;/li>
+&lt;li>&lt;strong>Research &amp;amp; OSINT:&lt;/strong> Expert in open-source intelligence gathering and effective web research.&lt;/li>
+&lt;li>&lt;strong>Project Management &amp;amp; Agile Learning:&lt;/strong> Organized, adaptable, and continuously improving workflows.&lt;/li>
+&lt;/ul>
+&lt;h2 id="personal-philosophy">Personal Philosophy&lt;/h2>
+&lt;p>I believe in &lt;strong>practicality and logic over emotion&lt;/strong> when solving problems. Constant reflection and metacognition help me improve both personally and professionally. While I plan extensively, I’m working on balancing execution to make ideas come to life faster.&lt;/p></description></item><item><title>Resume</title><link>https://harshdeepsingh.in/resume/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://harshdeepsingh.in/resume/</guid><description>&lt;p>&lt;a href="https://github.com/harshdeepsinghin">Github&lt;/a> | &lt;a href="contact@harshdeepsingh.in">E-mail&lt;/a> | &lt;a href="https://www.linkedin.com/in/harshdeepsinghin/">LinkedIn&lt;/a>&lt;/p>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>A passionate programmer and technical enthusiast, I thrive on solving complex problems and am deeply invested in the world of cybersecurity. As a Linux OS and FOSS advocate, I leverage my skills to create innovative solutions and enhance digital experiences.&lt;/p>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;p>&lt;strong>Technical Skills:&lt;/strong> Programming Languages (C, Python, Shell Scripting); Markup Languages (Markdown, YAML, HTML); Database Management (SQL - MySQL, MariaDB); Operating Systems (Linux - Arch, Debian; macOS; Windows); Researching (OSINT, Effective Web Surfing); Git; Documentation Writing.&lt;/p></description></item><item><title>Search</title><link>https://harshdeepsingh.in/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://harshdeepsingh.in/search/</guid><description/></item><item><title>Socials</title><link>https://harshdeepsingh.in/socials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://harshdeepsingh.in/socials/</guid><description>&lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+&lt;meta charset="UTF-8" />
+&lt;meta name="viewport" content="width=device-width, initial-scale=1" />
+&lt;title>Harshdeep's Socials&lt;/title>
+&lt;style>
+ /* Terminal style colors */
+
+ #socials-title {
+ font-size: 30px;
+ margin-bottom: 20px;
+ text-align: center;
+ }
+
+ img.profile-photo {
+ display: block;
+ margin: 1.5rem auto;
+ width: 150px;
+ height: 150px;
+ border: 1px solid #00ff00; /* neon green border */
+ object-fit: cover;
+ }
+
+ .toggle-buttons {
+ display: flex;
+ justify-content: center;
+ gap: 1rem;
+ }
+
+ .toggle-buttons button {
+ background-color: #121212;
+ color: #00ff00;
+ border: 2px solid #00ff00;
+ padding: 0.5rem 0.5rem;
+ font-family: 'Fira Code', monospace;
+ font-weight: bold;
+ cursor: pointer;
+ transition: all 0.3s ease;
+ }
+
+ .toggle-buttons button.active {
+ background-color: #00ff00;
+ color: #1e1e1e;
+ }
+
+ .slider-wrapper {
+ width: 90vw;
+ max-width: 800px;
+ margin: 0 auto;
+ overflow: hidden;
+ position: relative;
+ transition: height 0.3s ease;
+ }
+
+ .slider-pane {
+ padding: 1rem;
+ box-sizing: border-box;
+ display: none;
+ justify-content: center;
+ align-items: center;
+ }
+
+ .slider-pane.active {
+ display: block;
+ }
+
+ ul.social-list {
+ list-style: none;
+ padding: 0;
+ margin: 0 auto;
+ max-width: 500px;
+ text-align: center;
+ }
+
+ ul.social-list li {
+ margin: 0.7rem 0;
+ }
+
+ ul.social-list a {
+ display: block;
+ padding: 0.7rem 1rem;
+ color: #00ff00;
+ background-color: #121212;
+ border: 1.5px solid #00ff00;
+ text-decoration: none;
+ font-weight: 600;
+ font-size: 1rem;
+ transition: background-color 0.3s ease, color 0.3s ease;
+ text-align: left;
+ }
+
+ ul.social-list a:hover {
+ background-color: #00ff00;
+ color: #1e1e1e;
+ box-shadow: 0 0 8px #00ff00;
+ }
+
+ ul.social-list img.favicon {
+ width: 20px;
+ height: 20px;
+ margin-right: 10px;
+ filter: invert(67%) sepia(91%) saturate(394%) hue-rotate(77deg) brightness(94%) contrast(88%);
+ transition: filter 0.3s ease;
+ }
+
+ ul.social-list a:hover .favicon {
+ filter: none;
+ }
+
+ /* Responsive */
+ @media only screen and (max-width: 800px) {
+ #socials-title {
+ font-size: 18px;
+ margin-bottom: 10px;
+ }
+ ul.social-list {
+ max-width: 90%;
+ width: 90vw;
+ }
+ }
+&lt;/style>
+&lt;/head>
+&lt;body>
+ &lt;img
+ src="https://harshdeepsingh.sirv.com/Images/profile-photo-3.jpeg"
+ alt="Harshdeep Singh"
+ class="profile-photo"
+ />
+ &lt;h1 id="socials-title">Connect with Harshdeep Singh&lt;/h1>
+
+ &lt;div class="toggle-buttons">
+ &lt;button id="btn-community">Communities&lt;/button>
+ &lt;button id="btn-professional" class="active">Professional&lt;/button>
+ &lt;button id="btn-personal">Personal&lt;/button>
+ &lt;/div>
+
+ &lt;div class="slider-wrapper" id="sliderWrapper">
+ &lt;div class="slider-container" id="slider">
+
+ &lt;!-- Community Section -->
+ &lt;div class="slider-pane" id="community">
+ &lt;ul class="social-list">
+ &lt;li>&lt;a href="https://t.me/linuxwale" target="_blank">
+ &lt;img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" class="favicon" /> Telegram - LinuxWale
+ &lt;/a>&lt;/li>
+ &lt;li>&lt;a href="https://t.me/quotesthathitushard" target="_blank">
+ &lt;img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" class="favicon" /> Telegram - Quotes That Hit Us Hard
+ &lt;/a>&lt;/li>
+ &lt;li>&lt;a href="https://t.me/hiphopindiacommunity" target="_blank">
+ &lt;img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" class="favicon" /> Telegram - Hip Hop India Community
+ &lt;/a>&lt;/li>
+
+ &lt;/ul>
+ &lt;/div>
+
+ &lt;!-- Professional Section -->
+ &lt;div class="slider-pane active" id="professional">
+ &lt;ul class="social-list">
+ &lt;li>&lt;a href="mailto:contact@harshdeepsingh.in" target="_blank">
+ &lt;img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" class="favicon" /> Email
+ &lt;/a>&lt;/li>
+ &lt;li>&lt;a href="https://www.linkedin.com/in/harshdeepsinghin/" target="_blank">
+ &lt;img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="favicon" /> LinkedIn
+ &lt;/a>&lt;/li>
+ &lt;li>&lt;a href="https://github.com/harshdeepsinghin" target="_blank">
+ &lt;img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" class="favicon" /> GitHub
+ &lt;/a>&lt;/li>
+ &lt;li>&lt;a href="https://www.instagram.com/harshdeepsinghin" target="_blank">
+ &lt;img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" class="favicon" /> Instagram
+ &lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/div>
+
+
+ &lt;!-- Personal Section -->
+ &lt;div class="slider-pane" id="personal">
+ &lt;ul class="social-list">
+ &lt;li>&lt;a href="https://t.me/harshdeepsinghin" target="_blank">
+ &lt;img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" class="favicon" /> Telegram
+ &lt;/a>&lt;/li>
+ &lt;li>&lt;a href="https://www.instagram.com/harshdeepsync" target="_blank">
+ &lt;img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" class="favicon" /> Instagram
+ &lt;/a>&lt;/li>
+ &lt;li>&lt;a href="https://open.spotify.com/user/zgearbiszvaowgdl6yvyx362k" target="_blank">
+ &lt;img src="https://cdn-icons-png.flaticon.com/512/174/174872.png" class="favicon" /> Spotify
+ &lt;/a>&lt;/li>
+ 
+ &lt;/ul>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+
+ &lt;script>
+ const btnCommunity = document.getElementById('btn-community');
+ const btnProfessional = document.getElementById('btn-professional');
+ const btnPersonal = document.getElementById('btn-personal');
+ const wrapper = document.getElementById('sliderWrapper');
+ const panes = {
+ community: document.getElementById('community'),
+ professional: document.getElementById('professional'),
+ personal: document.getElementById('personal')
+ };
+
+ function showPane(type) {
+ Object.values(panes).forEach(p => p.classList.remove('active'));
+ panes[type].classList.add('active');
+ wrapper.style.height = panes[type].scrollHeight + 'px';
+ btnCommunity.classList.toggle('active', type === 'community');
+ btnProfessional.classList.toggle('active', type === 'professional');
+ btnPersonal.classList.toggle('active', type === 'personal');
+ }
+
+ window.addEventListener('DOMContentLoaded', () => {
+ showPane('professional');
+ });
+
+ btnCommunity.addEventListener('click', () => showPane('community'));
+ btnProfessional.addEventListener('click', () => showPane('professional'));
+ btnPersonal.addEventListener('click', () => showPane('personal'));
+ &lt;/script>
+&lt;/body>
+&lt;/html></description></item></channel></rss>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Productivity on Harshdeep Singh</title><link>https://harshdeepsingh.in/categories/productivity/</link><description>Recent content in Productivity on Harshdeep Singh</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 09 Oct 2024 12:59:00 +0000</lastBuildDate><atom:link href="https://harshdeepsingh.in/categories/productivity/index.xml" rel="self" type="application/rss+xml"/><item><title>AI Prompts</title><link>https://harshdeepsingh.in/posts/ai-prompts/</link><pubDate>Wed, 09 Oct 2024 12:59:00 +0000</pubDate><guid>https://harshdeepsingh.in/posts/ai-prompts/</guid><description>&lt;p>Here is a curated collection of AI prompts that I use regularly to study smarter, break down syllabus, analyze previous year questions, write documentation, and boost productivity using ChatGPT and other AI tools. Designed for students, learners, and creators who want to get the most out of AI assistance.&lt;/p>
+&lt;h3 id="syllabus-to-tasks">Syllabus to Tasks&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">I will provide you with a syllabus. Your task is to break it down into a set of Markdown tasks, structured as follows:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Use unit titles as headings (##) with lecture hours mentioned in parentheses.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Break down each unit into detailed subtasks (- [ ]), including subtopics or concepts.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">For topics with further subdivisions, use indented subtasks (- [ ] followed by - [ ] or - [ ] for further nesting).
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Group related topics under appropriate sections like Process Management or Thread Management, ensuring logical organisation.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Here’s an example format:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">markdown
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Copy code
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">## Unit I: [Unit Name] ([Lecture Hours] Lecture Hours)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- [ ] [Main Topic]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- [ ] [Another Main Topic]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] [Subtopic 1]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] [Subtopic 2]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] [Subtopic 3]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- [ ] [Next Main Topic]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] [Subtopic]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] [Further Subdivision]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- [ ] [Additional Topics]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">## Unit II: [Next Unit Name] ([Lecture Hours] Lecture Hours)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">### [Subsection Title]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- [ ] [Main Topic]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- [ ] [Another Main Topic]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] [Subtopic 1]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] [Subtopic 2]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] [Further Detail]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">### Case Study
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- [ ] [Specific Case Study Topic]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Please ensure all details from the syllabus are included in the breakdown, and structure the tasks as actionable learning objectives or key topics to review.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="syllabus-skimming">Syllabus Skimming&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Act as a &amp;lt;SUBJECT&amp;gt; expert and guide me through my syllabus by providing an overview or idea of each topic. Start with the first topic and give a brief idea about it. Don’t give details about all topics at once—keep going only when I say &amp;#39;next.&amp;#39; I want to get an idea of each topic before diving into deep study, so I can skim through the subject. If I say &amp;#39;more,&amp;#39; elaborate on the topic in detail.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">With every topic, give the associated keywords.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;lt;SYLLABUS&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="depth-subject-study">Depth Subject Study&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Act as a &amp;lt;SUBJECT&amp;gt; expert in and guide me through the following syllabus, one item at a time. Each item—whether a main topic or a subtopic—should be treated as an **individual, deeply detailed thread**.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">For each topic or subtopic, provide:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- A thorough explanation of all related concepts, theories, and mechanisms
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- Practical applications and real-world examples to enhance understanding
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- Definitions and explanations of all important terms
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- Related prerequisite knowledge, and if covered earlier, refer back to it
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- References to previously discussed material where relevant
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- Socratic-style questions to test my understanding and provoke critical thinking
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- A smooth structure starting from basics to advanced insights where applicable
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">### ✅ **Optional Example Usage:**
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">If the syllabus is:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- [ ] Introduction to Software Reliability 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] Hardware vs. Software Reliability 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] Reliability Metrics 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- [ ] Failure and Faults 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] Prevention 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] Removal 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] Tolerance 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> - [ ] Forecasting
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Then ChatGPT should respond like this:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;gt; ✅ **Introduction to Software Reliability** 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;gt; _[Full-depth explanation with examples, keyword definitions, and critical thinking questions]_ 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;gt; _(Waits for “next” or “more”)_
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Then:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;gt; ✅ **Hardware vs. Software Reliability** 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;gt; _[Explanation, plus reference back to “Introduction to Software Reliability” if needed]_ 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;gt; _(Waits for “next” or “more”)_
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">And so on.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">⏳ Only proceed to the **next item** when I say **&amp;#34;next.&amp;#34;** 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">🔁 If I say **&amp;#34;more,&amp;#34;** expand on the current topic with **deeper details, advanced knowledge, or extra examples.** 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">🔗 If a topic depends on prior topics, point that out and briefly recap or link back to them.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Do **not** skip any item, regardless of whether it’s a main topic or a subtopic.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Here is the syllabus:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;lt;SYLLABUS&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="random-topic-revision">Random Topic Revision&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Given a list of topics in my syllabus, pick a random topic for me to review. Each time I say &amp;#39;next,&amp;#39; provide a different topic from the list, one by one, in a random order, until all topics are covered, then start again in a spaced repetition cycle. If I say &amp;#39;help,&amp;#39; give me small hints to help me recall the topic without actually describing it directly.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&amp;lt;SYLLABUS&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="technical-documentation-writer">Technical Documentation Writer&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Act as a professional technical documentation writer
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">and help me in writing documentation for my project
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">i will keep providing you my codes and readmes
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">u just wait until i say you to give me the documentation
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="pyqs-insights">PYQs Insights&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">I&lt;/span> &lt;span class="n">will&lt;/span> &lt;span class="n">provide&lt;/span> &lt;span class="n">multiple&lt;/span> &lt;span class="n">Previous&lt;/span> &lt;span class="n">Year&lt;/span> &lt;span class="n">Questions&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">PYQs&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="n">text&lt;/span> &lt;span class="n">one&lt;/span> &lt;span class="n">by&lt;/span> &lt;span class="n">one&lt;/span>&lt;span class="o">.&lt;/span> &lt;span class="n">You&lt;/span> &lt;span class="n">will&lt;/span> &lt;span class="n">extract&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">store&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="ow">and&lt;/span> &lt;span class="n">organize&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">topics&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">subtopics&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="ow">and&lt;/span> &lt;span class="n">question&lt;/span> &lt;span class="n">frequency&lt;/span> &lt;span class="n">but&lt;/span> &lt;span class="o">**&lt;/span>&lt;span class="n">wait&lt;/span> &lt;span class="k">for&lt;/span> &lt;span class="n">my&lt;/span> &lt;span class="n">explicit&lt;/span> &lt;span class="n">instruction&lt;/span>&lt;span class="o">**&lt;/span> &lt;span class="n">to&lt;/span> &lt;span class="n">analyze&lt;/span> &lt;span class="ow">or&lt;/span> &lt;span class="n">summarize&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">data&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">At&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">end&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">I&lt;/span> &lt;span class="n">will&lt;/span> &lt;span class="n">upload&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">text&lt;/span> &lt;span class="n">of&lt;/span> &lt;span class="n">my&lt;/span> &lt;span class="n">current&lt;/span> &lt;span class="n">syllabus&lt;/span>&lt;span class="o">.&lt;/span> &lt;span class="n">Based&lt;/span> &lt;span class="n">on&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">syllabus&lt;/span> &lt;span class="ow">and&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">stored&lt;/span> &lt;span class="n">PYQ&lt;/span> &lt;span class="n">data&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mf">1.&lt;/span> &lt;span class="o">**&lt;/span>&lt;span class="n">Identify&lt;/span> &lt;span class="n">topics&lt;/span>&lt;span class="o">**&lt;/span> &lt;span class="n">that&lt;/span> &lt;span class="n">appear&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">syllabus&lt;/span> &lt;span class="ow">and&lt;/span> &lt;span class="n">match&lt;/span> &lt;span class="n">them&lt;/span> &lt;span class="n">with&lt;/span> &lt;span class="n">PYQ&lt;/span> &lt;span class="n">coverage&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mf">2.&lt;/span> &lt;span class="o">**&lt;/span>&lt;span class="n">Provide&lt;/span> &lt;span class="n">insights&lt;/span>&lt;span class="o">**&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">such&lt;/span> &lt;span class="n">as&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">-&lt;/span> &lt;span class="n">The&lt;/span> &lt;span class="n">number&lt;/span> &lt;span class="n">of&lt;/span> &lt;span class="n">times&lt;/span> &lt;span class="n">each&lt;/span> &lt;span class="n">topic&lt;/span> &lt;span class="n">has&lt;/span> &lt;span class="n">appeared&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="n">PYQs&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">-&lt;/span> &lt;span class="n">Weightage&lt;/span> &lt;span class="n">distribution&lt;/span> &lt;span class="n">across&lt;/span> &lt;span class="n">topics&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">-&lt;/span> &lt;span class="n">Trends&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="n">question&lt;/span> &lt;span class="n">frequency&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mf">3.&lt;/span> &lt;span class="o">**&lt;/span>&lt;span class="n">Analyze&lt;/span> &lt;span class="n">topic&lt;/span> &lt;span class="n">interrelations&lt;/span>&lt;span class="o">**&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">identifying&lt;/span> &lt;span class="n">questions&lt;/span> &lt;span class="ow">or&lt;/span> &lt;span class="n">concepts&lt;/span> &lt;span class="n">that&lt;/span> &lt;span class="n">combine&lt;/span> &lt;span class="n">multiple&lt;/span> &lt;span class="n">topics&lt;/span> &lt;span class="ow">or&lt;/span> &lt;span class="n">subtopics&lt;/span> &lt;span class="n">to&lt;/span> &lt;span class="n">help&lt;/span> &lt;span class="n">me&lt;/span> &lt;span class="n">study&lt;/span> &lt;span class="n">them&lt;/span> &lt;span class="n">holistically&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Finally&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">help&lt;/span> &lt;span class="n">me&lt;/span> &lt;span class="n">focus&lt;/span> &lt;span class="n">on&lt;/span> &lt;span class="n">important&lt;/span> &lt;span class="n">topics&lt;/span> &lt;span class="n">to&lt;/span> &lt;span class="n">maximize&lt;/span> &lt;span class="n">marks&lt;/span> &lt;span class="n">with&lt;/span> &lt;span class="n">this&lt;/span> &lt;span class="n">smart&lt;/span> &lt;span class="n">practice&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="deepseek-text-concatenation">DeepSeek Text Concatenation&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">I will provide you with multiple ChatGPT conversation texts. Your task is to combine all the content into one single file without modifying, editing, or altering any of the original text. Simply concatenate all the provided conversations in the exact order they are given, preserving all formatting, spacing, and punctuation. Do not add any headers, footers, or separators between the conversations—just append each new text directly to the end of the previous one. Confirm when ready for the first input.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">This ensures: 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">1. **No data changes** (original text preserved exactly) 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2. **Simple concatenation** (no added separators or metadata) 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">3. **Clear instructions** for batch processing (mention &amp;#34;single file&amp;#34; and &amp;#34;big text&amp;#34;) 
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Note Taking Guide</title><link>https://harshdeepsingh.in/posts/note-taking-guide/</link><pubDate>Mon, 30 Sep 2024 17:07:00 +0000</pubDate><guid>https://harshdeepsingh.in/posts/note-taking-guide/</guid><description>&lt;p>In this guide, I’ve shared three simple yet powerful note-taking techniques I learned from Nick Milo: Freelining, Freetalking, and Freewriting. These methods have helped me brain-dump thoughts quickly with less friction, making it easier to think clearly and capture ideas in real time. Whether I&amp;rsquo;m typing in Obsidian or jotting things on paper, these techniques let me get my thoughts out without judgment, structure, or overthinking—and that’s the whole point.&lt;/p></description></item></channel></rss>
