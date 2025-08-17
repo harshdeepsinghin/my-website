@@ -25,9 +25,19 @@ jobs:
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
+          extended: true
 
       - name: Build site
-        run: hugo --minify
+        env:
+          HUGO_ENV: production
+        run: |
+          hugo version
+          hugo --minify
+
+      - name: List generated files (debug)
+        run: |
+          echo "Top-level public/ listing:" && find public -maxdepth 2 -type f | head -n 50
+          test -f public/index.html && echo "index.html size:" && wc -c public/index.html || echo "index.html missing"
 
       - name: Add .nojekyll
         run: touch public/.nojekyll
@@ -47,5 +57,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          cname: harshdeepsingh.in
+  # Custom domain should be configured in repository Settings > Pages
