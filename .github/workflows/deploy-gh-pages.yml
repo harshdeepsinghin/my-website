@@ -39,4 +39,6 @@ jobs:
           # enable force_orphan to avoid history issues when first creating the branch
           force_orphan: true
           # optionally: cname: example.com (already handled by CNAME file)
+          cname: harshdeepsingh.in
+          enable_jekyll: false
 
