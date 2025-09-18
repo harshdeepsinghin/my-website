@@ -1,0 +1,734 @@
+body {
+    display:flex;
+    flex-direction:column;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Background color for contrast */
+    color: #ffffff; /* Text color */
+    font-family: 'Fira Code';
+    font-size: 20px; /* Increased font size for better readability */
+    line-height: 1.6; /* Increased line height for better spacing */
+    justify-content: center; /* Centering content */
+    min-height: 100vh;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.post-meta-container {
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 0.5px solid #00ff00;
+}
+
+.post-meta-container h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-meta, .post-categories, .post-tags {
+  font-size: 0.95rem;
+  color: #ccc;
+  margin: 0.3rem 0;
+}
+
+.post-categories a,
+.post-tags a {
+  text-decoration: none;
+  color: #007acc;
+  margin-right: 0.5rem;
+}
+
+
+
+/* Search wrapper to center and add spacing */
+.search-wrapper {
+  border: 1.5px solid #00ff00;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+/* Search input styles */
+#search-input {
+  border:none;
+  color: #00ff00;
+  background-color: #000000;
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: 'Fira Code';
+}
+
+
+#no-result {
+  padding: 0 15px 0 15px;
+}
+
+
+.search-results-wrapper {
+  background: #000000;
+  border-radius: 0; /* Removed radius */
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 0; /* Remove any default padding */
+}
+
+/* Remove bottom border and add spacing with gap instead */
+.search-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* spacing between items */
+}
+
+/* Make each item like a card with theme border */
+.search-item {
+  background: black; /* solid background so no 'bleed' */
+  padding: 1rem 1.25rem;
+  border-radius: 0; /* Removed radius */
+  box-shadow: none; /* Removed shadow for cleaner look with border */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.3s ease;
+}
+
+
+/* Remove border-bottom from items */
+.search-item:not(:last-child) {
+  border-bottom: none;
+}
+
+
+.list-content-wrapper {
+    width: 40vw;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+/* Post list cards */
+    .card {
+      background-color: #2d2d2d;
+      padding: 1.2rem 1.5rem;
+      margin-bottom: 1.5rem;
+      transition: transform 0.2s ease;
+      cursor: pointer;
+      display: block;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      background-color: rgb(26, 26, 26);
+      transition: 0.3s;
+    }
+
+    .card:hover .card-title {
+      color: #00ff00;
+    }
+
+    .card-title {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #64b5f6;
+      text-decoration: none;
+    }
+
+    .card-date {
+      font-size: 0.9rem;
+      color: #aaa;
+      margin-top: 0.5rem;
+    }
+    .flex-tags,
+    .flex-categories {
+      font-size: 16px;
+    }
+
+
+/* Pagination */
+    .pagination {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+
+    .pagination a {
+      display: block;
+      padding: 0.7rem 1rem;
+      margin-right: 15px;
+      color: #00ff00;
+      background-color: #121212;
+      border: 1.5px solid #00ff00;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      font-family: 'Fira Mono', monospace;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      text-align: left;
+    }
+
+    .pagination a:hover {
+      background-color: #00ff00;
+      color: #1e1e1e;
+      box-shadow: 0 0 8px #00ff00;
+    }
+
+
+/* Flex containers for tags and categories */
+
+.taxonomy-toggle-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.taxonomy-button {
+    background-color: #121212;
+    color: #00ff00;
+    border: 1.5px solid #00ff00;
+    padding: 0.1rem 0.5rem;
+    margin-top: 1rem;
+    font-family: 'Fira Code', monospace;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    text-align: center;
+}
+
+.taxonomy-button:hover {
+    background-color: #00ff00;
+    color: #1e1e1e;
+}
+
+.taxonomy-button.active {
+    background-color: #00ff00;
+    color: #1e1e1e;
+}
+
+.flex-tags,
+.flex-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 1rem;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Tag styles */
+.tag-item {
+    color: #00ff00;
+    font-family: 'Fira Code', monospace;
+    padding: 2px 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+.tag-item:hover {
+    background-color: #00ff00;
+    color: #1e1e1e;
+}
+
+/* Category styles */
+.category-item {
+    color: #00ff00;
+    font-family: 'Fira Code', monospace;
+    padding: 2px 6px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+.category-item:hover {
+    background-color: #00ff00;
+    color: #1e1e1e;
+}
+.resume-download-container {
+  width: 100%;
+  padding: 0 1rem;
+  margin: 2rem 0 1rem 0; /* removed auto to prevent center alignment */
+  display: flex;
+  justify-content: flex-start;
+}
+
+.resume-download-button {
+  display: inline-block;
+  padding: 0.7rem 1rem;
+  color: #00ff00;
+  background-color: #121212;
+  border: 1.5px solid #00ff00;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: 'Fira Code', monospace;
+  text-align: left;
+}
+.resume-download-button:hover {
+  background-color: #00ff00;
+  color: #1e1e1e;
+  box-shadow: 0 0 8px #00ff00;
+}
+
+
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-toc {
+    display:grid;
+    align-items:left;
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    
+
+    width: 12em;
+    top: 33vh;
+      left: 2rem;  
+    padding-left: 0;
+  
+    display: inline-block;
+    text-decoration: none;
+      line-height: 2rem;
+      padding: 0 1rem;
+    color:#00ff00;
+    
+  }
+  
+  .section-toc a:hover,
+  .section-toc a:focus {
+    color: white;
+    text-decoration: underline;
+    font-style:italic;
+    padding-left:20px;
+    transition: all .2s ease-in-out;
+  }
+
+  .section-toc a:not(:hover),
+  .section-toc a:not(focus) {
+    padding-left:0px;
+    transition: all .2s ease-in-out;
+  }
+
+.section-main {
+    display:grid;
+    width: 70%;        /* Fixed width */
+    margin-left: auto;  /* Auto margin for horizontal centering */
+    margin-right: auto; /* Auto margin for horizontal centering */
+    padding-left: 0;    /* Remove manual padding */
+    padding-right: 0;   /* Remove manual padding */
+}
+
+.section-main.with-toc {
+    display:grid;
+    align-items:right;
+    margin-left: 25%;  /* Auto margin for horizontal centering */
+    padding-left: 3%;    /* Remove manual padding */
+    padding-right: 0;   /* Remove manual padding */
+    border-left: solid 1px #00ff00;
+}
+
+
+/* Make code blocks wrap instead of overflow */
+pre, code {
+  white-space: pre-wrap !important; /* Allow wrapping */
+  word-break: break-word;            /* Break long words if needed */
+  overflow-wrap: break-word;         /* Same as above */
+}
+
+/* Optional: add some padding and background for readability */
+pre {
+  background-color: #272822; /* Monokai dark bg */
+  color: #f8f8f2;            /* Monokai text color */
+  padding: 1em;
+  border-radius: 6px;
+  overflow-x: auto;          /* Keep horizontal scroll if still overflow */
+  position: relative;
+}
+
+/* Add a subtle shadow or border for better separation */
+code {
+  font-family: 'Fira Code';
+}
+
+.copy-code-button {
+    color: #ffffff;
+    background-color: #272822;
+    border-color: #272822;
+    border-radius: 3px 3px 0px 0px;
+
+    /* right-align */
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+
+    margin-bottom: -2   px;
+    padding: 3px 8px;
+    padding-bottom: -10;
+    font-size: 0.8em;
+}
+
+.copy-code-button:hover {
+    color:#00ff00;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.copy-code-button:focus {
+    /* Avoid an ugly focus outline on click in Chrome,
+       but darken the button for accessibility.
+       See https://stackoverflow.com/a/25298082/1481479 */
+    background-color: #E6E6E6;
+    outline: 0;
+}
+
+.copy-code-button:active {
+    background-color:white;
+    color:black;
+
+}
+
+.highlight pre {
+    /* Avoid pushing up the copy buttons. */
+    margin: 0;
+}
+
+.heading {
+font-family: 'Press Start 2P', cursive, monospace;
+font-size: 30px;
+}
+
+.header{
+    display:grid;
+    width: 100vw;
+    align-items: center;
+    justify-content:center;
+    text-align:center;
+    border-bottom: solid 1px #00ff00;
+    margin-bottom: none;
+
+}
+
+.main-pages-links-home {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.main-pages-links {
+    margin-bottom: 10px;
+    align-items: baseline;
+
+}
+
+
+.site-footer {
+    background-color: #000000;
+    color: #00ff00;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 3rem;
+    border-top: 1px solid #00ff00;
+}
+
+.site-footer a {
+    color: #00ff00;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.site-footer a:hover {
+    color: #ffffff;
+}
+
+
+h1, h2, h3 {
+    color: #00ff00; /* Header color for visibility */
+    margin-bottom: 0px; /* Space below headers */
+    margin-top: 20px; /* Space above headers */
+}
+
+
+p {
+    margin-bottom: 15px; /* Space below paragraphs */
+}
+
+ul {
+    margin-left: 20px; /* Indentation for lists */
+    margin-bottom: 15px; /* Space below lists */
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+#toc-li {
+    margin-bottom: 0px;
+}
+
+/* Regular link styling */
+a {
+    color: rgb(119, 190, 252); /* Link color */
+    text-decoration: none; /* No underline on links */
+    transition: color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+a:link {
+    color: rgb(119, 190, 252); /* Set default link color */
+}
+
+a[class="heading"] {
+    color: #00ff00;
+}
+
+a[class="section-toc"] {
+    color: #00ff00;
+}
+
+a:visited {
+    color: rgb(119, 190, 252); /* Set visited link color */
+}
+
+a:visited[class="heading"] {
+    color: #00ff00;
+}
+
+a:visited[class="section-toc"] {
+    color: #00ff00;
+}
+
+a:hover {
+    color: #00ff00; /* Link hover color */
+}
+
+a:active {
+    color: #00ff00; /* Color when the link is clicked */
+}
+
+.flex-container {
+    display: flex;              /* Enable flexbox */
+    justify-content: space-between; /* Space between items */
+    align-items: center;       /* Align items vertically */
+}
+
+.year .date {
+    margin-left: auto;         /* Push the year to the right */
+    text-align: right;         /* Right-align the text */
+}
+
+/* Android Responsive Code*/
+@media only screen and (max-width: 800px) {
+
+    body {
+        display:grid;
+        padding:0;
+    }
+
+    .header {
+        font-size: 14px;
+        padding: 0 10px; /* Add horizontal padding to prevent edge overflow */
+    }
+    .heading {
+        font-size: 20px; /* Reduced from 24px for better fit */
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
+        line-height: 1.2;
+    }
+}
+    .main-pages-links {
+        font-size: 18px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .main-pages-links-home {
+        font-size: 18px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .section-toc {
+        display:none;
+        position: sticky;
+        top: 0;                  /* Stick to the bottom of the viewport */
+        background-color: rgba(0, 0, 0, 0.8); /* No background color */
+        width: 90%;               /* Full viewport width */
+        z-index: 1000;
+        overflow-x: auto;
+        white-space: nowrap;
+        align-content:left;
+    }
+    
+    .section-toc ul {
+        display:inline;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width:1pt;
+    }
+    
+    .section-toc li {
+        margin-right: 10px;
+        float:left;
+    }
+
+    .section-toc a:hover,
+    .section-toc a:focus {
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+        font-style:italic;
+        padding:none;
+        transition: all .2s ease-in-out;
+    }
+
+    .section-toc a:not(:hover),
+    .section-toc a:not(focus) {
+        padding:none;
+        transition: all .2s ease-in-out;
+        
+    }
+
+    .section-toc li:not(:last-child)::after {
+        content: "|";               /* Separator character */
+        color: #00ff00;             /* Green color for the separator */
+        margin-left: 10px;          /* Space between text and separator */
+        font-weight: normal;        /* Optional: match font weight */
+    }
+
+    .section-main.section-main.with-toc {
+        font-size:14pt;
+        border:none;
+        width: 85%;        /* Fixed width */
+        margin-left: auto;  /* Auto margin for horizontal centering */
+        margin-right: 5%; /* Auto margin for horizontal centering */
+        padding-left: 0;    /* Remove manual padding */
+        padding-right: 0;   /* Remove manual padding */
+    }
+
+  
+    ul {
+        margin-left: 0; /* Indentation for lists */
+        margin-bottom: 15px; /* Space below lists */
+    }
+    
+    div.section-main {
+    width:90%;
+    font-size: 18px;
+  }
+    pre {
+        font-size: 16px;
+    }
+
+    #site-footer-p {
+        margin: none;
+        padding: none;
+    }
+    
+/* Toggle buttons */
+    .taxonomy-toggle-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .taxonomy-button {
+      background-color: #121212;
+      color: #00ff00;
+      border: 1.5px solid #00ff00;
+      padding: 0.1rem 0.5rem;
+      margin-top: 1rem;
+      font-family: 'Fira Code', monospace;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .taxonomy-button:hover,
+    .taxonomy-button.active {
+      background-color: #00ff00;
+      color: #1e1e1e;
+    }
+
+    /* Post list cards */
+    .card {
+      background-color: #2d2d2d;
+      padding: 1.2rem 1.5rem;
+      margin-bottom: 1.5rem;
+      transition: transform 0.2s ease;
+      cursor: pointer;
+      display: block;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      background-color: rgb(26, 26, 26);
+      transition: 0.3s;
+    }
+
+    .card-title {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #64b5f6;
+      text-decoration: none;
+    }
+
+    .card-date {
+      font-size: 0.9rem;
+      color: #aaa;
+      margin-top: 0.5rem;
+    }
+    .flex-tags,
+    .flex-categories {
+      font-size: 16px;
+    }
+
+    .taxonomy-button {
+        margin-top: 0.8rem;
+        font-size: 16px;
+        border: 1px solid #00ff00;
+      }
+
+    .list-content-wrapper {
+      width: 75vw;
+    }
+
+    .post-meta, .post-categories, .post-tags {
+      font-size: 0.8rem;
+    }
+}
+
+/* Extra small screens (very narrow Android phones) */
+@media only screen and (max-width: 480px) {
+    .header {
+        padding: 0 5px; /* Tighter padding for very small screens */
+    }
+    
+    .heading {
+        font-size: 18px; /* Even smaller font for very narrow screens */
+        line-height: 1.1;
+    }
+    
+    .main-pages-links,
+    .main-pages-links-home {
+        font-size: 16px; /* Slightly smaller nav links */
+    }
+}
