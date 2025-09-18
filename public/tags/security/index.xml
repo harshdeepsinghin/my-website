@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security on Harshdeep Singh</title>
-    <link>http://localhost:1313/my-website/tags/security/</link>
+    <link>http://localhost:1313/tags/security/</link>
     <description>Recent content in Security on Harshdeep Singh</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/my-website/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Cryptography Learning Journey</title>
-      <link>http://localhost:1313/my-website/posts/my-cryptography-learning-journey/</link>
+      <link>http://localhost:1313/posts/my-cryptography-learning-journey/</link>
       <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/my-website/posts/my-cryptography-learning-journey/</guid>
+      <guid>http://localhost:1313/posts/my-cryptography-learning-journey/</guid>
       <description>&lt;p&gt;This post documents my personal journey of learning cryptography, especially focusing on RSA and Diffie-Hellman. I’ve curated and organized the exact resources, videos, and concepts I used—starting from foundational math to public key cryptography. If you&amp;rsquo;re someone starting out or struggling with the core ideas, this learning path might give you the clarity and structure you need.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-cryptography-fundamentals&#34;&gt;1. Cryptography Fundamentals&lt;/h2&gt;&#xA;&lt;p&gt;First, I built my foundation with these resources:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://pastebin.com/druLLMUz&#34;&gt;Cybrary Cryptography Course&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Hash Concepts Explained&lt;br&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;        &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/b4b8ktEV4Bg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;      &lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;2-cryptography-basics&#34;&gt;2. Cryptography Basics&lt;/h2&gt;&#xA;&lt;p&gt;These videos helped me understand core concepts:&lt;/p&gt;</description>
     </item>
   </channel>
