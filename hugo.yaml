@@ -1,7 +1,7 @@
 baseURL: "https://harshdeepsingh.in/"
 languageCode: "en-us"
 title: "Harshdeep Singh"
-theme: resume
+theme: shellterm
 
 params:
   name: "Harshdeep Singh"

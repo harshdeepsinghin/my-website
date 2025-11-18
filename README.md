@@ -4,7 +4,7 @@ Personal website built with Hugo. This repository contains the source for a Hugo
 
 **Quick Summary**
 - **Tech:** Hugo (static site generator)
-- **Theme:** custom theme in `themes/resume`
+- **Theme:** custom theme in `themes/shellterm`
 - **Content:** Markdown files in `content/` (posts, pages, etc.)
 - **Output:** Generated site lives in `public/` after running `hugo`
 
@@ -46,7 +46,7 @@ There is a `CNAME` file present if you use a custom domain.
 
 **Repository structure (important paths)**
 - `content/` — site content (posts, pages). Add new posts under `content/posts/` as Markdown files.
-- `themes/resume/` — theme files and templates.
+- `themes/shellterm/` — theme files and templates.
 - `static/` (if present inside a theme or site root) — static assets accessible at site root.
 - `public/` — generated site (do not edit directly; this is output from `hugo`).
 
@@ -55,11 +55,11 @@ There is a `CNAME` file present if you use a custom domain.
 - Include front matter at the top (YAML/TOML) with `title`, `date`, `tags`, etc.
 
 **Notes & suggestions**
-- This repo already contains a `themes/resume` theme and several posts inside `content/posts/`.
+- This repo already contains a `themes/shellterm` theme and several posts inside `content/posts/`.
 - Consider adding a small CI workflow (GitHub Actions) to build and deploy on push.
 
 **Contributing**
-- Open an issue or a pull request. Keep content in `content/` and layout changes in `themes/resume/`.
+- Open an issue or a pull request. Keep content in `content/` and layout changes in `themes/shellterm/`.
 
 **License**
 - If you want this repo to have a license, add a `LICENSE` file at the repo root.
