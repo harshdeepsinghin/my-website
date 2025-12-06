@@ -81,6 +81,9 @@ Navigate to whole playlist for better view.<br>
 ### Fiestel Cipher
 {{< youtube FGhj3CGxl8I >}}
 
+### Modes of Operation
+{{< youtube Rk0NIQfEXBA >}}
+
 ---
 
 This learning path helped me build a solid understanding of these complex cryptographic concepts. I hope it can help others too!
