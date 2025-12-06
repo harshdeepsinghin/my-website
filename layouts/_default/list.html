@@ -18,7 +18,7 @@
     {{ range $paginator.Pages }}
       <div class="card" onclick="location.href='{{ .RelPermalink }}';">
         <a class="card-title">{{ .Title }}</a>
-        <div class="card-date">{{ .Lastmod.Format "2 January 2006" }}</div>
+        <div class="card-date">Updated on {{ .Lastmod.Format "2 January 2006" }} | Published on {{ .Date.Format "2 January 2006" }}</div>
       </div>
     {{ end }}
 
