@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security on Harshdeep Singh</title><link>https://harshdeepsingh.in/tags/security/</link><description>Recent content in Security on Harshdeep Singh</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 06 Dec 2025 18:11:41 +0530</lastBuildDate><atom:link href="https://harshdeepsingh.in/tags/security/index.xml" rel="self" type="application/rss+xml"/><item><title>My Cryptography Learning Journey</title><link>https://harshdeepsingh.in/posts/my-cryptography-learning-journey/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://harshdeepsingh.in/posts/my-cryptography-learning-journey/</guid><description>&lt;p&gt;This post documents my personal journey of learning cryptography, especially focusing on RSA and Diffie-Hellman. I’ve curated and organized the exact resources, videos, and concepts I used—starting from foundational math to public key cryptography. If you&amp;rsquo;re someone starting out or struggling with the core ideas, this learning path might give you the clarity and structure you need.&lt;/p&gt;
+&lt;h2 id="1-cryptography-fundamentals"&gt;1. Cryptography Fundamentals&lt;/h2&gt;
+&lt;p&gt;First, I built my foundation with these resources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pastebin.com/druLLMUz"&gt;Cybrary Cryptography Course&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Hash Concepts Explained&lt;br&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/b4b8ktEV4Bg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2-cryptography-basics"&gt;2. Cryptography Basics&lt;/h2&gt;
+&lt;p&gt;These videos helped me understand core concepts:&lt;/p&gt;</description></item></channel></rss>
