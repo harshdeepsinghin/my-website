@@ -35,6 +35,10 @@ When an exponent is very large, you **cannot calculate (a^b) directly**, so you 
 4. If modulus is composite and factorable → **use CRT** to break and recombine.
 5. If exponent is a power tower → **reduce exponent first**, then compute using fast mod exponentiation.
 
+[ChatGPT Thread for Modular Exponentiation →](https://chatgpt.com/s/t_6928109ddde88191933088b85a49476c)
+For better understaind: 
+
+
 - Only video you may need:
   {{< youtube r5_65lLtHkA >}}
 
