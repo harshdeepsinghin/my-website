@@ -26,6 +26,8 @@ markup:
 
 cleanDestinationDir: true
 
+enableGitInfo: true
+
 outputs:
   section:
     - HTML

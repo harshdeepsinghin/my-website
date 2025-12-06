@@ -1,6 +1,7 @@
 ---
 title: "My Cryptography Learning Journey"
 date: 2023-12-20T00:00:00
+lastmod: 2025-12-06T00:00:00
 tags: ["cryptography", "RSA", "Diffie-Hellman", "security"]
 categories: ["Guide"]
 draft: false
@@ -72,6 +73,13 @@ Understanding public/private keys:
 #### Full Playlist Link:
 Navigate to whole playlist for better view.<br>
 [View Complete RSA Playlist →](https://www.youtube.com/playlist?list=PLbg3ZX2pWlgLoapF5VvM_8h5OR-XW9pbr)
+
+
+---
+
+## Symmetric Cryptography
+### Fiestel Cipher
+{{< youtube FGhj3CGxl8I >}}
 
 ---
 
