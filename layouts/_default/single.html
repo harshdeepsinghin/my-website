@@ -9,7 +9,7 @@
 
             <!-- Date -->
             <p class="post-meta">
-                Updated on {{ .Lastmod.Format "2 January 2006" }} | Published on {{ .Date.Format "2 January 2006" }} 
+                Published on {{ .Date.Format "2 January 2006" }}{{ if gt .Lastmod.Unix .Date.Unix }} | Updated on {{ .Lastmod.Format "2 January 2006" }}{{ end }}
             </p>
 
             <!-- Categories -->
