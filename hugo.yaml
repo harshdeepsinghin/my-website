@@ -22,6 +22,9 @@ markup:
     guessSyntax: true    # Automatically guess language if not specified
     lineNos: false       # Show line numbers in code blocks (true/false)
     lineNumbersInTable: true
+  goldmark:
+    renderer:
+      unsafe: true       # Allow raw HTML in Markdown
 
 
 cleanDestinationDir: true

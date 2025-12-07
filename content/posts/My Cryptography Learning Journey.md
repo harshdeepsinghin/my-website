@@ -11,7 +11,7 @@ This post documents my personal journey of learning cryptography. I’ve curated
 ## 1. Cryptography Fundamentals
 
 First, I built my foundation with these resources:
-- [ChatGPT Thread for Introduction to Cryptography](https://chatgpt.com/share/693511cd-02f0-8003-94e3-0db86013118f) Read this to kickstart.
+- <a href="https://chatgpt.com/share/693511cd-02f0-8003-94e3-0db86013118f" target="_blank">ChatGPT Thread for Introduction to Cryptography →</a> Read this to kickstart.
 
 ## 2. Cryptography Basics
 
@@ -22,7 +22,7 @@ These videos helped me understand core concepts:
 - Crypto Basics Part 2  
   {{< youtube Xb4_VT4y9kQ >}}
 
-- For Cryptography Mathematics (including Modular Arithmetic, Prime Numbers, GCD, Euler's Totient Functions or Theorems, Fermat's Theorems, Groups, Fields and etc.) Just go and [Watch Cryptography Mathematics Playlist →](https://www.youtube.com/playlist?list=PLBlnK6fEyqRjjeHdm0cwu6E-nhhEluuVA)
+- For Cryptography Mathematics (including Modular Arithmetic, Prime Numbers, GCD, Euler's Totient Functions or Theorems, Fermat's Theorems, Groups, Fields and etc.) Just go and <a href="https://www.youtube.com/playlist?list=PLBlnK6fEyqRjjeHdm0cwu6E-nhhEluuVA" target="_blank">Watch Cryptography Mathematics Playlist →</a>
 
 ## 3.0 RSA Prerequisites (Math Fundamentals)
 
@@ -35,7 +35,7 @@ When an exponent is very large, you **cannot calculate (a^b) directly**, so you 
 4. If modulus is composite and factorable → **use CRT** to break and recombine.
 5. If exponent is a power tower → **reduce exponent first**, then compute using fast mod exponentiation.
 
-[ChatGPT Thread for Modular Exponentiation →](https://chatgpt.com/s/t_6928109ddde88191933088b85a49476c)
+<a href="https://chatgpt.com/s/t_6928109ddde88191933088b85a49476c" target="_blank">ChatGPT Thread for Modular Exponentiation →</a>
 For better understaind: 
 
 
@@ -85,7 +85,7 @@ Just trust me, and watch the full playlist below:
 
 Full Playlist Link:
 Navigate to whole playlist for better view.<br>
-[Watch Complete RSA Playlist →](https://www.youtube.com/playlist?list=PLbg3ZX2pWlgLoapF5VvM_8h5OR-XW9pbr)
+<a href="https://www.youtube.com/playlist?list=PLbg3ZX2pWlgLoapF5VvM_8h5OR-XW9pbr" target="_blank">Watch Complete RSA Playlist →</a>
 
 ---
 
