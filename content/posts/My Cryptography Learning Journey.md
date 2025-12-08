@@ -85,7 +85,9 @@ Just trust me, and watch the full playlist below:
 <br>
 <a href="https://www.youtube.com/playlist?list=PLbg3ZX2pWlgLoapF5VvM_8h5OR-XW9pbr" target="_blank">Watch Complete RSA Playlist →</a>
 
+<p>
 To calculate any of `e` or `d` if any of them is given, let's say `e` is given but not `d` or vice versa, also we know φ(n) then <a href="https://chatgpt.com/share/6936cb49-c710-8003-9688-a6858a87869cr" target="_blank">ChatGPT Thread for e or d calculation →</a>
+</p>
 
 ---
 
