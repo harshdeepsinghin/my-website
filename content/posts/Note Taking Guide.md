@@ -1,5 +1,6 @@
 ---
 date: 2024-09-30T17:07:00
+lastmod: 2025-05-31 13:46:42
 tags: ["Notes", "Productivity"]
 categories: ["Tips", "Productivity"]
 title: "Note Taking Guide"

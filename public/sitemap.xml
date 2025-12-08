@@ -3,75 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/posts/dark_web_research/</loc>
-    <lastmod>2025-12-06T18:11:41+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ai/</loc>
-    <lastmod>2025-05-31T13:46:42+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/ai-prompts/</loc>
-    <lastmod>2025-05-31T13:46:42+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-12-07T11:11:01+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/chatgpt/</loc>
-    <lastmod>2025-05-31T13:46:42+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/productivity/</loc>
-    <lastmod>2025-05-31T13:46:42+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/productivity/</loc>
-    <lastmod>2025-05-31T13:46:42+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/prompts/</loc>
-    <lastmod>2025-05-31T13:46:42+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-12-07T11:11:01+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/tips/</loc>
-    <lastmod>2025-05-31T13:46:42+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/note-taking-guide/</loc>
-    <lastmod>2025-05-31T13:46:42+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/notes/</loc>
-    <lastmod>2025-05-31T13:46:42+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/cryptography/</loc>
-    <lastmod>2025-12-07T11:11:01+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/diffie-hellman/</loc>
-    <lastmod>2025-12-07T11:11:01+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/guide/</loc>
-    <lastmod>2025-12-07T11:11:01+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/my-cryptography-learning-journey/</loc>
-    <lastmod>2025-12-07T11:11:01+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/rsa/</loc>
-    <lastmod>2025-12-07T11:11:01+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/security/</loc>
-    <lastmod>2025-12-07T11:11:01+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/about/</loc>
-    <lastmod>2025-05-29T01:05:16+05:30</lastmod>
+    <lastmod>2025-09-18T11:55:09+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-05-26T23:26:01+05:30</lastmod>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-05-29T01:05:16+05:30</lastmod>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ai/</loc>
+    <lastmod>2024-10-09T12:59:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/ai-prompts/</loc>
+    <lastmod>2024-10-09T12:59:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/chatgpt/</loc>
+    <lastmod>2024-10-09T12:59:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/productivity/</loc>
+    <lastmod>2024-10-09T12:59:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/productivity/</loc>
+    <lastmod>2024-10-09T12:59:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/prompts/</loc>
+    <lastmod>2024-10-09T12:59:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/tips/</loc>
+    <lastmod>2024-10-09T12:59:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/note-taking-guide/</loc>
+    <lastmod>2024-09-30T17:07:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/notes/</loc>
+    <lastmod>2024-09-30T17:07:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cryptography/</loc>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/diffie-hellman/</loc>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/guide/</loc>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/my-cryptography-learning-journey/</loc>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rsa/</loc>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/security/</loc>
+    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/resume/</loc>
-    <lastmod>2025-05-29T01:05:16+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
-    <lastmod>2025-05-30T00:53:47+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/socials/</loc>
-    <lastmod>2025-08-06T10:25:28+05:30</lastmod>
   </url>
 </urlset>

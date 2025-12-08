@@ -1,5 +1,6 @@
 ---
 date: 2024-10-09T12:59:00
+lastmod: 2025-05-31 13:46:42
 tags: ["AI", "Prompts", "ChatGPT", "Productivity"]
 categories: ["Tips", "Productivity"]
 title: "AI Prompts"

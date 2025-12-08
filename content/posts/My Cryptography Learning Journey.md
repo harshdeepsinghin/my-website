@@ -1,7 +1,7 @@
 ---
 title: "My Cryptography Learning Journey"
 date: 2023-12-20T00:00:00
-lastmod: 2025-12-06T00:00:00
+lastmod: 2025-12-08 18:35:24
 tags: ["cryptography", "RSA", "Diffie-Hellman", "security"]
 categories: ["Guide"]
 draft: false
@@ -82,9 +82,7 @@ Understanding public/private keys:
 
 ## Diffie-Hellman & RSA
 Just trust me, and watch the full playlist below:
-
-Full Playlist Link:
-Navigate to whole playlist for better view.<br>
+<br>
 <a href="https://www.youtube.com/playlist?list=PLbg3ZX2pWlgLoapF5VvM_8h5OR-XW9pbr" target="_blank">Watch Complete RSA Playlist →</a>
 
 To calculate any of `e` or `d` if any of them is given, let's say `e` is given but not `d` or vice versa, also we know φ(n) then <a href="https://chatgpt.com/share/6936cb49-c710-8003-9688-a6858a87869cr" target="_blank">ChatGPT Thread for e or d calculation →</a>

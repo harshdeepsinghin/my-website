@@ -12,7 +12,7 @@
 *.out
 
 # Hugo build output
-public/
+public/*
 resources/_gen/
 .hugo_build.lock
 
