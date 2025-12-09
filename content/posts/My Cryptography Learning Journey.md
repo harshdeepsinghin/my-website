@@ -1,7 +1,7 @@
 ---
 title: "My Cryptography Learning Journey"
 date: 2023-12-20T00:00:00
-lastmod: 2025-12-09 12:11:42
+lastmod: 2025-12-09 12:19:08
 tags: ["cryptography", "RSA", "Diffie-Hellman", "security"]
 categories: ["Guide"]
 draft: false
@@ -100,34 +100,43 @@ To calculate any of `e` or `d` if any of them is given, let's say `e` is given b
 
 ### DES
 
+<details>
+<summary>Click to expand DES videos</summary>
+
 {{< youtube 8B1rN1rnTiU >}}
 {{< youtube sL0gD1N-kfM >}}
 {{< youtube 6Sycf0wI_q8 >}}
 {{< youtube khFqzQVuYRQ >}}
 
+</details>
+
 ### Galois Field
+
+<details>
+<summary>Click to expand Galois Field videos</summary>
+
 {{< youtube 7LUSNIQWyqo >}}
-
 {{< youtube -WGc4VapKj0 >}}
-
 {{< youtube -R5TK6fg03Q >}}
-
 {{< youtube TYSRVMGlCDI >}}
-
 {{< youtube wzP5TBNLiCs >}}
-
 {{< youtube 97pV8noO3mI >}}
+
+</details>
 
 ### AES
 
 the following video is must watch:
 {{< youtube C4ATDMIz5wc >}}
 
+<details>
+<summary>Click to expand AES Full Working videos</summary>
 then full working in details:
 {{< youtube o-MZgVJP-rI >}}
 {{< youtube FRWkzxI1Fcw >}}
 {{< youtube 4Kfasc_wN-U >}}
 {{< youtube dkmR5k_UJ-0 >}}
+</details>
 
 ---
 
