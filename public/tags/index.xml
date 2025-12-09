@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Harshdeep Singh</title>
-    <link>https://harshdeepsingh.in/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Harshdeep Singh</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 09 Dec 2025 12:19:08 +0000</lastBuildDate>
-    <atom:link href="https://harshdeepsingh.in/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
-      <link>https://harshdeepsingh.in/tags/ai/</link>
+      <link>http://localhost:1313/tags/ai/</link>
       <pubDate>Wed, 09 Oct 2024 12:59:00 +0000</pubDate>
-      <guid>https://harshdeepsingh.in/tags/ai/</guid>
+      <guid>http://localhost:1313/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>ChatGPT</title>
-      <link>https://harshdeepsingh.in/tags/chatgpt/</link>
+      <link>http://localhost:1313/tags/chatgpt/</link>
       <pubDate>Wed, 09 Oct 2024 12:59:00 +0000</pubDate>
-      <guid>https://harshdeepsingh.in/tags/chatgpt/</guid>
+      <guid>http://localhost:1313/tags/chatgpt/</guid>
       <description></description>
     </item>
     <item>
       <title>Productivity</title>
-      <link>https://harshdeepsingh.in/tags/productivity/</link>
+      <link>http://localhost:1313/tags/productivity/</link>
       <pubDate>Wed, 09 Oct 2024 12:59:00 +0000</pubDate>
-      <guid>https://harshdeepsingh.in/tags/productivity/</guid>
+      <guid>http://localhost:1313/tags/productivity/</guid>
       <description></description>
     </item>
     <item>
       <title>Prompts</title>
-      <link>https://harshdeepsingh.in/tags/prompts/</link>
+      <link>http://localhost:1313/tags/prompts/</link>
       <pubDate>Wed, 09 Oct 2024 12:59:00 +0000</pubDate>
-      <guid>https://harshdeepsingh.in/tags/prompts/</guid>
+      <guid>http://localhost:1313/tags/prompts/</guid>
       <description></description>
     </item>
     <item>
       <title>Notes</title>
-      <link>https://harshdeepsingh.in/tags/notes/</link>
+      <link>http://localhost:1313/tags/notes/</link>
       <pubDate>Mon, 30 Sep 2024 17:07:00 +0000</pubDate>
-      <guid>https://harshdeepsingh.in/tags/notes/</guid>
+      <guid>http://localhost:1313/tags/notes/</guid>
       <description></description>
     </item>
     <item>
       <title>Cryptography</title>
-      <link>https://harshdeepsingh.in/tags/cryptography/</link>
+      <link>http://localhost:1313/tags/cryptography/</link>
       <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://harshdeepsingh.in/tags/cryptography/</guid>
+      <guid>http://localhost:1313/tags/cryptography/</guid>
       <description></description>
     </item>
     <item>
       <title>Diffie-Hellman</title>
-      <link>https://harshdeepsingh.in/tags/diffie-hellman/</link>
+      <link>http://localhost:1313/tags/diffie-hellman/</link>
       <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://harshdeepsingh.in/tags/diffie-hellman/</guid>
+      <guid>http://localhost:1313/tags/diffie-hellman/</guid>
       <description></description>
     </item>
     <item>
       <title>RSA</title>
-      <link>https://harshdeepsingh.in/tags/rsa/</link>
+      <link>http://localhost:1313/tags/rsa/</link>
       <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://harshdeepsingh.in/tags/rsa/</guid>
+      <guid>http://localhost:1313/tags/rsa/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
-      <link>https://harshdeepsingh.in/tags/security/</link>
+      <link>http://localhost:1313/tags/security/</link>
       <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://harshdeepsingh.in/tags/security/</guid>
+      <guid>http://localhost:1313/tags/security/</guid>
       <description></description>
     </item>
   </channel>
