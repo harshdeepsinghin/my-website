@@ -22,6 +22,7 @@ fi
 update_lastmod() {
     local file="$1"
     local last_commit_date
+    local current_lastmod
 
     # Get the last commit date in ISO 8601 format (YYYY-MM-DDTHH:MM:SS)
     last_commit_date=$(git log --format=%ci -1 "$file" 2>/dev/null)
@@ -32,6 +33,15 @@ update_lastmod() {
 
     # Convert to YYYY-MM-DDTHH:MM:SS (remove timezone offset)
     last_commit_date=$(echo "$last_commit_date" | sed 's/ [+-][0-9][0-9][0-9][0-9]$//')
+
+    # Get current lastmod from file
+    current_lastmod=$(grep "^lastmod:" "$file" | sed 's/lastmod: *//' | tr -d '\n')
+
+    # If lastmod already matches, skip
+    if [ "$current_lastmod" = "$last_commit_date" ]; then
+        echo "Lastmod already up to date for $file"
+        return
+    fi
 
     # Check if lastmod already exists in frontmatter
     if grep -q "^lastmod:" "$file"; then
