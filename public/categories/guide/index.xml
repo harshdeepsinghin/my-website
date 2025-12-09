@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Guide on Harshdeep Singh</title>
-    <link>http://localhost:1313/categories/guide/</link>
+    <link>https://harshdeepsingh.in/categories/guide/</link>
     <description>Recent content in Guide on Harshdeep Singh</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Dec 2025 12:11:42 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/guide/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Dec 2025 12:19:08 +0000</lastBuildDate>
+    <atom:link href="https://harshdeepsingh.in/categories/guide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Cryptography Learning Journey</title>
-      <link>http://localhost:1313/posts/my-cryptography-learning-journey/</link>
+      <link>https://harshdeepsingh.in/posts/my-cryptography-learning-journey/</link>
       <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-cryptography-learning-journey/</guid>
+      <guid>https://harshdeepsingh.in/posts/my-cryptography-learning-journey/</guid>
       <description>&lt;p&gt;This post documents my personal journey of learning cryptography. I’ve curated and organized the exact resources, videos, and concepts I used—starting from foundational math to public key cryptography. If you&amp;rsquo;re someone starting out or struggling with the core ideas, this learning path might give you the clarity and structure you need.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-cryptography-fundamentals&#34;&gt;1. Cryptography Fundamentals&lt;/h2&gt;&#xA;&lt;p&gt;First, I built my foundation with these resources:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://chatgpt.com/share/693511cd-02f0-8003-94e3-0db86013118f&#34; target=&#34;_blank&#34;&gt;ChatGPT Thread for Introduction to Cryptography →&lt;/a&gt; Read this to kickstart.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;2-cryptography-basics&#34;&gt;2. Cryptography Basics&lt;/h2&gt;&#xA;&lt;p&gt;These videos helped me understand core concepts:&lt;/p&gt;</description>
     </item>
   </channel>
