@@ -1,0 +1,151 @@
+{{ define "main" }}
+<div class="content">
+    <div class="terminal-404">
+        <div class="terminal-header">
+            <span class="terminal-title">Terminal - Error</span>
+            <div class="terminal-buttons">
+                <span class="red"></span>
+                <span class="yellow"></span>
+                <span class="green"></span>
+            </div>
+        </div>
+        <div class="terminal-body">
+            <div class="terminal-line">
+                <span class="prompt">$</span> <span class="command">curl {{ .Permalink }}</span>
+            </div>
+            <div class="terminal-line">
+                <span class="output">HTTP/1.1 404 Not Found</span>
+            </div>
+            <div class="terminal-line">
+                <span class="output">Content-Type: text/html</span>
+            </div>
+            <div class="terminal-line">
+                <span class="output"></span>
+            </div>
+            <div class="terminal-line">
+                <span class="output">404 - Page Not Found</span>
+            </div>
+            <div class="terminal-line">
+                <span class="output">The requested resource could not be located on this server.</span>
+            </div>
+            <div class="terminal-line">
+                <span class="output"></span>
+            </div>
+            <div class="terminal-line">
+                <span class="prompt">$</span> <span class="command">ls /</span>
+            </div>
+            <div class="terminal-line">
+                <span class="output">about/  posts/  resume/  socials/  search/</span>
+            </div>
+            <div class="terminal-line">
+                <span class="output"></span>
+            </div>
+            <div class="terminal-line">
+                <span class="output">Try navigating to one of these directories.</span>
+            </div>
+            <div class="terminal-line">
+                <span class="output">Or go back to <a href="/" class="terminal-link">home</a>.</span>
+            </div>
+            <div class="terminal-line">
+                <span class="prompt">$</span> <span class="cursor">_</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.terminal-404 {
+    max-width: 800px;
+    margin: 2rem auto;
+    border: 2px solid #00ff00;
+    background-color: #000;
+    font-family: 'Fira Code', monospace;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.terminal-header {
+    background-color: #333;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #00ff00;
+}
+
+.terminal-title {
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.terminal-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.terminal-buttons span {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.red { background-color: #ff5f57; }
+.yellow { background-color: #ffbd2e; }
+.green { background-color: #28ca42; }
+
+.terminal-body {
+    padding: 1rem;
+    color: #00ff00;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.terminal-line {
+    margin-bottom: 0.5rem;
+}
+
+.prompt {
+    color: #00ff00;
+    font-weight: bold;
+}
+
+.command {
+    color: #fff;
+}
+
+.output {
+    color: #ccc;
+}
+
+.terminal-link {
+    color: #00ff00;
+    text-decoration: none;
+    border-bottom: 1px solid #00ff00;
+}
+
+.terminal-link:hover {
+    background-color: #00ff00;
+    color: #000;
+}
+
+.cursor {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+}
+
+@media (max-width: 600px) {
+    .terminal-404 {
+        margin: 1rem;
+        font-size: 0.9rem;
+    }
+    
+    .terminal-body {
+        padding: 0.5rem;
+    }
+}
+</style>
+{{ end }}
