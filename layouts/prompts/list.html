@@ -1,0 +1,69 @@
+{{ define "main" }}
+<div class="prompts-container">
+  <div class="prompts-header">
+    <h1>{{ .Title }}</h1>
+    {{ if .Content }}
+      <p class="prompts-description">{{ .Content | plainify }}</p>
+    {{ end }}
+  </div>
+
+  <!-- Category Filter -->
+  <div class="prompts-filter">
+    <button class="filter-btn active" data-category="all">All</button>
+    {{ $categories := slice }}
+    {{ range .Pages }}
+      {{ with .Params.category }}
+        {{ $categories = $categories | append . }}
+      {{ end }}
+    {{ end }}
+    {{ range ($categories | uniq) }}
+      <button class="filter-btn" data-category="{{ . | urlize }}">{{ . }}</button>
+    {{ end }}
+  </div>
+
+  <!-- Prompts Grid -->
+  <div class="prompts-grid">
+    {{ range .Pages }}
+      <div class="prompt-card" data-category="{{ .Params.category | urlize }}">
+        <a href="{{ .RelPermalink }}" class="prompt-card-link">
+          <div class="prompt-card-category">{{ .Params.category }}</div>
+          <h2 class="prompt-card-title">{{ .Title }}</h2>
+          <p class="prompt-card-description">{{ .Params.description }}</p>
+          <div class="prompt-card-ai">
+            {{ range .Params.ai }}
+              <span class="ai-badge">{{ . }}</span>
+            {{ end }}
+          </div>
+        </a>
+      </div>
+    {{ end }}
+  </div>
+</div>
+
+<script>
+  // Category filter functionality
+  document.addEventListener('DOMContentLoaded', function() {
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const cards = document.querySelectorAll('.prompt-card');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', function() {
+        const category = this.dataset.category;
+        
+        // Update active button
+        filterBtns.forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        
+        // Filter cards
+        cards.forEach(card => {
+          if (category === 'all' || card.dataset.category === category) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  });
+</script>
+{{ end }}
