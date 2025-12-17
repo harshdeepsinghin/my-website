@@ -620,6 +620,13 @@ a:active {
   margin-bottom: 20px;
 }
 
+/* Active navigation link - highlights current page */
+.nav-active {
+  color: #00ff00 !important;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .section-toc {
   display: none;
   position: sticky;

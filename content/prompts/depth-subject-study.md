@@ -2,7 +2,7 @@
 title: "Depth Subject Study"
 description: "Deep dive into each syllabus topic with detailed explanations and critical thinking"
 category: "Study"
-ai: ["chatgpt", "gemini", "perplexity", "phind"]
+ai: ["chatgpt", "perplexity", "phind"]
 ---
 
 Act as a {{subject}} expert and guide me through the following syllabus, one item at a time. Each item—whether a main topic or a subtopic—should be treated as an **individual, deeply detailed thread**.

@@ -2,7 +2,7 @@
 title: "Technical Documentation Writer"
 description: "Get help writing professional documentation for your projects"
 category: "Development"
-ai: ["chatgpt", "gemini", "phind"]
+ai: ["chatgpt", "perplexity", "phind"]
 ---
 
 Act as a professional technical documentation writer and help me in writing documentation for my project.

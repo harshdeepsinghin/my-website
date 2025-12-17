@@ -2,7 +2,7 @@
 title: "PYQs Insights"
 description: "Analyze Previous Year Questions to identify important topics and trends"
 category: "Study"
-ai: ["chatgpt", "gemini", "perplexity"]
+ai: ["chatgpt", "perplexity", "phind"]
 ---
 
 I will provide multiple Previous Year Questions (PYQs) text one by one. You will extract, store, and organize the topics, subtopics, and question frequency but **wait for my explicit instruction** to analyze or summarize the data.

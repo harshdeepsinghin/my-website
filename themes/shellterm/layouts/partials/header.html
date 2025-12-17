@@ -1,37 +1,38 @@
 <div class="header" id="name">
-    <h1><a class="heading" href="/">{{ .Site.Params.name }}</a></h1>
-    <nav class="main-pages-links{{ if .IsHome }}-home{{ end }}">
-    <a href="/socials">Socials</a> | 
-    {{ $pages := slice "posts" "resume" "about"  }}
+  <h1><a class="heading" href="/">{{ .Site.Params.name }}</a></h1>
+  <nav class="main-pages-links{{ if .IsHome }}-home{{ end }}">
+    <a href="/socials" {{ if eq .RelPermalink "/socials/" }} class="nav-active" {{ end }}>Socials</a> |
+    {{ $pages := slice "posts" "resume" "about" }}
     {{ range $index, $page := $pages }}
-        {{ if gt $index 0 }} | {{ end }}
-        {{ $p := site.GetPage $page }}
-        {{ if $p }}
-            <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
-        {{ else }}
-            {{ $page | title }}
-        {{ end }}
+    {{ if gt $index 0 }} | {{ end }}
+    {{ $p := site.GetPage $page }}
+    {{ if $p }}
+    <a href="{{ $p.RelPermalink }}" {{ if hasPrefix $.RelPermalink $p.RelPermalink }} class="nav-active" {{ end }}>{{
+      $p.Title }}</a>
+    {{ else }}
+    {{ $page | title }}
     {{ end }}
-    </nav>
-    {{ if not .IsHome }}
-<nav aria-label="breadcrumb" style="display: flex; justify-content: center;">
-  <div style="font-family: 'Fira Mono', monospace; font-size: 0.95rem;  padding: 0.5rem 1rem;">
-    <span><a href="/" >home</a></span>
+    {{ end }}
+  </nav>
+  {{ if not .IsHome }}
+  <nav aria-label="breadcrumb" style="display: flex; justify-content: center;">
+    <div style="font-family: 'Fira Mono', monospace; font-size: 0.95rem;  padding: 0.5rem 1rem;">
+      <span><a href="/">home</a></span>
 
-    {{ $parts := split (trim .RelPermalink "/") "/" }}
-    {{ $url := "" }}
-    {{ range $index, $part := $parts }}
+      {{ $parts := split (trim .RelPermalink "/") "/" }}
+      {{ $url := "" }}
+      {{ range $index, $part := $parts }}
       {{ $url = printf "%s/%s" $url $part }}
       {{ if eq (add $index 1) (len $parts) }}
-        <span style="color:#ccc;"> › {{ $part }}</span>
+      <span style="color:#ccc;"> › {{ $part }}</span>
       {{ else }}
-        <span> › <a href="{{ $url | relURL }}">{{ $part }}</a></span>
+      <span> › <a href="{{ $url | relURL }}">{{ $part }}</a></span>
       {{ end }}
-    {{ end }}
-  </div>
-</nav>
+      {{ end }}
+    </div>
+  </nav>
 
-{{ end }}
+  {{ end }}
 
 
 </div>

@@ -2,7 +2,7 @@
 title: "Syllabus to Tasks"
 description: "Break down any syllabus into actionable Markdown task lists"
 category: "Study"
-ai: ["chatgpt", "gemini", "perplexity"]
+ai: ["chatgpt", "perplexity", "phind"]
 ---
 
 I will provide you with a syllabus. Your task is to break it down into a set of Markdown tasks, structured as follows:
