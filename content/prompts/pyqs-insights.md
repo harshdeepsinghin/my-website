@@ -5,18 +5,46 @@ category: "Study"
 ai: ["chatgpt", "perplexity", "phind"]
 ---
 
-I will provide multiple Previous Year Questions (PYQs) text one by one. You will extract, store, and organize the topics, subtopics, and question frequency but **wait for my explicit instruction** to analyze or summarize the data.
+I will provide you with (at the end):
 
-At the end, I will upload the text of my current syllabus. Based on the syllabus and the stored PYQ data:
+* Subject name
+* Complete syllabus
+* All Previous Year Questions (PYQs)
 
-1. **Identify topics** that appear in the syllabus and match them with PYQ coverage.
-2. **Provide insights**, such as:
-   - The number of times each topic has appeared in PYQs.
-   - Weightage distribution across topics.
-   - Trends in question frequency.
+Your task is to analyze the syllabus together with the PYQs and produce a structured, exam-oriented breakdown.
 
-3. **Analyze topic interrelations**, identifying questions or concepts that combine multiple topics or subtopics to help me study them holistically.
+### Output Format
 
-Finally, help me focus on important topics to maximize marks with this smart practice.
+Use Markdown only.
 
-Subject: {{subject}}
+#### Unit-wise Breakdown
+
+* Use unit titles as level-2 headings (`##`) with lecture hours in parentheses.
+* Break each unit into checklist tasks using `- [ ]`.
+* Include all topics and subtopics from the syllabus.
+* Use nested checklists for subdivisions.
+* Group related topics under appropriate sections.
+* Map PYQs to relevant topics.
+* Indicate priority based on PYQ frequency (High / Medium / Low).
+
+#### PYQ Analysis Section
+
+* Unit-wise question frequency.
+* Frequently repeated topics.
+* Rarely asked topics.
+* Common question patterns (short, long, numerical).
+
+#### Study Strategy Section
+
+* Unit-wise preparation priority.
+* Topics to focus on for long answers.
+* Topics suitable for quick revision.
+
+Ensure no syllabus topic is omitted. Keep the structure concise, hierarchical, and Markdown-based.
+
+Subject: {{Subject}}
+
+Following is the syllabus:
+{{Syllabus}}
+
+PYQ is attached
