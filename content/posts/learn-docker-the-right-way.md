@@ -15,8 +15,12 @@ Thanks to [typeCraft](https://typecraft.dev/).
 
 ### Part 1: Learn Docker
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ud7Npgi6x8E" title="Learn Docker" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-wrapper">
+<iframe src="https://www.youtube.com/embed/Ud7Npgi6x8E" title="Learn Docker" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### Part 2: Learn Docker Compose
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HGKfE-cn9y4" title="Learn Docker Compose" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-wrapper">
+<iframe src="https://www.youtube.com/embed/HGKfE-cn9y4" title="Learn Docker Compose" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
