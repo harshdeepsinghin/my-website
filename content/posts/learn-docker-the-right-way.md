@@ -12,17 +12,13 @@ Docker can feel confusing because there are many layers (images, containers, net
 
 ## Recommended videos
 
-### Part 1: Learn Docker in 12 Minutes
+### Part 1: Learn Docker
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ud7Npgi6x8E" title="Learn Docker in 12 Minutes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- Why this helps: very concise, great for building a mental model of containers vs images, and shows quick local usage.
-
-### Part 2: Docker Compose for Absolute Beginners (Full Course)
+### Part 2: Learn Docker Compose
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HGKfE-cn9y4" title="Docker for Absolute Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-- Why this helps: deeper walkthrough with demos, covers common workflows (Dockerfile, building images, running containers) and practical tips.
 
 ### Why both parts matter
 
@@ -38,5 +34,3 @@ Together these videos form a complete beginner-friendly sequence: Part 1 builds 
 
 - https://www.youtube.com/watch?v=Ud7Npgi6x8E
 - https://www.youtube.com/watch?v=HGKfE-cn9y4
-
-If you want, I can also add a short runnable example repository and a `Dockerfile` you can use to follow along. Want that? 
