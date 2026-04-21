@@ -32,74 +32,80 @@ sections:
 A passionate programmer and technical enthusiast, I thrive on solving complex problems and am deeply invested in the world of cybersecurity. As a Linux OS and FOSS advocate, I leverage my skills to create innovative solutions and enhance digital experiences.
 
 ## Skills
-**Technical Skills:** Programming Languages (C, Python, Shell Scripting); Markup Languages (Markdown, YAML, HTML); Database Management (SQL - MySQL, MariaDB); Operating Systems (Linux - Arch, Debian; macOS; Windows); Researching (OSINT, Effective Web Surfing); Git; Documentation Writing.
 
-**Soft Skills:** Analytical, Critical, and Metacognitive Thinking; Problem Solving; Agile Learning; Project Management; Planning and Scheduling; Second Brain and Note-Taking; Tutoring.
-## Projects
+  [Github](https://github.com/harshdeepsinghin) | [E-mail](mailto:contact@harshdeepsingh.in) | [LinkedIn](https://www.linkedin.com/in/harshdeepsinghin/)
 
-### Development Setup (Personal Project) (September 2023 - Present)
+  ## Professional Summary
 
-[GitHub Link](https://github.com/harshdeepsinghin/dotfiles)
+  Cyber Security and Systems Engineering undergraduate with strong foundations in low-level computing, networking, and automation. Experienced in designing efficient systems through protocol optimization, bandwidth analysis, and first-principles problem solving.
 
-- Engineered a streamlined development environment for CachyOS and macOS using custom shell scripts and configurations.
-- Implemented quick setup scripts for package management and user configurations to optimize the development experience.
-- Customized Hyprland and Fish shell configurations, along with Git setups and personalized Vim and iTerm profiles.
+  ## Education
 
-### Study Toolkit (Open Source) (May 2024)
+  - **B.Tech in Computer Science Engineering (Cyber Security)** — UPES Dehradun (Aug 2023 – Present)
+    - CGPA: 8.44/10
+  - **12th, CBSE** — SMCS Vikasnagar (Apr 2022 – Mar 2023)
+    - Percentage: 74%
+  - **10th, CBSE** — SMCS Vikasnagar (Apr 2020 – Mar 2021)
+    - Percentage: 74.4%
 
-[GitHub Link](https://github.com/harshdeepsinghin/StudyToolkit)
+  ## Technical Skills
 
-- Developed a Python-based terminal application enhancing study efficiency with an AI-integrated toolkit.
-- Features include personalized notes, flashcard-style quizzes, term definitions, topic descriptions, and a Pomodoro timer.
-- The AI-powered "Ask AI" feature delivers quick answers and study tips, streamlining the learning environment.
+  - **Core Areas:** Computing Systems, Networking, Cybersecurity, Systems Optimization
+  - **Programming / Scripting:** C++, C, Python, Bash
+  - **Concepts:** OSI Model, TCP/IP, Protocol Design, System Efficiency, Cryptography Basics
+  - **Frameworks / Web Technologies:** JavaScript, React.js, HTML, CSS
+  - **Databases:** MySQL, MariaDB, MongoDB
+  - **Tools & Platforms:** Git, GitHub, Linux (Arch/Debian), macOS, VS Code, draw.io
+  - **Research Interests:** Computing Systems, Network Protocol Optimization, Low-Bandwidth Communication Systems, Cybersecurity, Distributed Systems
 
-### Striiks (Open Source) (2022-2023)
+  ## Internships
 
-[GitHub Link](https://github.com/harshdeepsinghin/Striiks)
+  - **Ant Tek, Dehradun** — *Technical Engineering Intern* (Jun 2025 – Jul 2025)
+    - Duration: 8 weeks
+    - Automated internal workflow scripts using Bash, improving tooling reliability and reducing repetitive setup effort.
+    - Streamlined developer environments through modular provisioning enhancements and Git-based version control.
 
-- Created a Python-based habit-tracking app encouraging consistency through an interactive terminal interface.
-- Utilized MySQL for data storage and implemented randomized ID generation to prevent duplicates.
-- Key features include progress tracking, history viewing, streak restarts, and a user-friendly help menu.
+  - **Ardas Samaj Kalyan (ASK), Dehradun** — *Social Intern* (Jun 2024 – Jul 2024)
+    - Duration: 8 weeks
+    - Conducted cyber safety awareness sessions for 200+ individuals, improving digital literacy and online hygiene.
+    - Assisted entrepreneurs with digital presence setup and basic data tracking practices for community initiatives.
 
-## Education
+  ## Projects
 
-**UPES Dehradun, India** **2023-2027**  
-_Bachelor of Technology in CSE – Cyber Security and Digital Forensics_  
+  - **PehraSafe – Low-Bandwidth Real-Time Telemetry System** — Tech Stack: WebSockets, Systems Design (2026 – Present)
+    - Designed a real-time location telemetry system optimized for ultra-low bandwidth usage (~5KB/min), enabling efficient continuous tracking under constrained network conditions.
+    - Engineered an application-layer algorithm using binary and delta binary encoding, reducing payload size to ~9–13 bytes per update.
+    - Conducted layer-wise network overhead analysis, achieving total transmission size of 80–120 bytes per update.
+    - Applied systems-level optimization principles across OSI layers to minimize transmission cost while maintaining reliability.
+    - Exploring intellectual property protection for protocol design combining binary and delta encoding techniques.
 
-**SMCS Vikasnagar, India** **2022-23**  
-_CBSE Higher Secondary Certificate_  
-Percentage: 74%
+  - **Development Environment Setup Automation** ([dotfiles](https://github.com/harshdeepsinghin/dotfiles)) — Tech Stack: Bash, Linux, macOS, Git (Sep 2023 – Present)
+    - Engineered a single-command provisioning script that sets up a fresh macOS system in 8 minutes, down from 40–60 minutes — an 85% reduction in setup time.
+    - Built 18 custom shell aliases and 10 reusable functions, automating routine workflows and disk cleanup, saving 2–4 minutes daily and reducing cleanup time from 60 minutes to 3 minutes.
 
-**SMCS Vikasnagar, India** **2020-21**  
-_CBSE Secondary School Certificate_  
-Percentage: 74.4%
+  - **Homelab Infrastructure (Proxmox-based)** — Tech Stack: Proxmox, Linux, Networking (Sep 2023 – Present)
+    - Designed isolated virtualized environments to experiment with networking, service deployment, and system behavior under controlled conditions.
+    - Configured networking, service exposure, and system-level experimentation for infrastructure testing and deployment scenarios.
 
-## Internship
+  - **Striiks – CLI Habit Tracker** ([Striiks](https://github.com/harshdeepsinghin/striiks)) — Tech Stack: Python, CLI Tooling (Nov 2022 – Apr 2025)
+    - Built a Python-based CLI streak tracker with MySQL-backed persistence to monitor and manage habit consistency.
+    - Designed command driven (start, add, break, view) with structured data handling for reliable state management.
 
-**Social Intern**							                          **June 2023 – August 2023**  
-**Ardas Samaj Kalyan (ASK) NGO**					           **Dehradun, India**  
+  ## Certifications & Accomplishments
 
-- **Scam Awareness Campaign** – Developed a digital awareness initiative educating over 200 citizens on cyber scams, enhancing community knowledge and self-education in cyber safety.
-- **Environmental Responsibility** – Organized and participated in eco-friendly initiatives, repurposing plastic waste and planting coriander, fostering sustainable practices within the community.
-- **Community Engagement & Education** – Facilitated a Summer Camp for students from underserved areas, using interactive and interest-driven learning approaches, enhancing literacy and equipping youth for future contributions.
-- **Support for Local Entrepreneurs** – Contributed to a workshop under MNREGA, helping 30 small-scale entrepreneurs improve skills through product photography, bridging economic gaps in local businesses.
-- **Earned Certification of Appreciation** – Acknowledged for dedication to community welfare and sustainability, underscoring commitment to impactful social work.
+  - **GATE 2026 Qualified**
+  - **Google - Foundations of Cybersecurity Certificate (Coursera):** [Verify](https://www.coursera.org/account/accomplishments/verify/PEDMG7833KIV)
+  - **Eureka Jr. Semi-finalist – E-Cell IIT Bombay (2021, 2022)**
+  - **Certification of Appreciation, ASK (Ardas Samaj Kalyan) NGO**
 
+  ## Co-Curricular Activities
 
+  - **Dance India Dance (DID) Selection (2017):** Qualified in Dehradun and Delhi for the national dance competition.
+  - **Group Dance Competitions:** Runner-up, UPES Fest (Uurja) and DIT Fest, Dehradun.
+  - **Songwriting & Music Performance:** Writes and performs original songs and raps; skilled in guitar, congo, and drums.
 
-## Certifications
-- **Eureka Jr. Semi-finalist, E-Cell IIT Bombay (2021, 2022)**: Recognized for innovative contributions and selected among top teams, enhancing skills in entrepreneurship and teamwork.
-- **Certification of Appreciation, ASK (Ardas Samaj Kalyan) NGO**: Acknowledged for a 2-month social internship contributing to various social well-being initiatives, fostering community support and empowerment
+  ## Interests and Hobbies
 
-
-## Co-Curricular Activities
-
-- **Dance India Dance (DID) Selection (2017)**: Qualified in Dehradun and Delhi for the national dance competition.
-- **Group Dance Competitions**: Runner-up, UPES Fest (Uurja) and DIT Fest, Dehradun.
-- **Songwriting & Music Performance**: Writes and performs original songs and raps; skilled in guitar, congo, and drums.
-
-## Interests and Hobbies
-
-- **Public Speaking & Debating**: Actively engaged in debates and discussions.
-- **Socializing & Networking**: Enjoys connecting with people and expanding perspectives.
-- **Skating**: Avid skater with a passion for outdoor activities
+  - **Public Speaking & Debating:** Actively engaged in debates and discussions.
+  - **Socializing & Networking:** Enjoys connecting with people and expanding perspectives.
+  - **Skating:** Avid skater with a passion for outdoor activities
