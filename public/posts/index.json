@@ -1,7 +1,7 @@
 [
   {
     "title": "Learn Docker the Right Way",
-    "content": "Docker can feel confusing because there are many layers (images, containers, networks, volumes, registries). These two videos should be viewed as connected parts of a clear Docker learning path: one to build the core mental model quickly, the other to reinforce it with practical workflows.\nRecommended videos Part 1: Learn Docker Part 2: Learn Docker Compose Why both parts matter Together these videos form a complete beginner-friendly sequence: Part 1 builds the foundation, and Part 2 reinforces it with real Docker examples and workflows.\nQuick tips after watching Start small: build and run a simple image from a Dockerfile for a tiny app. Inspect containers with docker ps, docker logs, and docker inspect to learn how things map. Use volumes for persistent data and networks for multi-container apps. Links https://www.youtube.com/watch?v=Ud7Npgi6x8E https://www.youtube.com/watch?v=HGKfE-cn9y4 ",
+    "content": "Docker may feel confusing because there are many layers (images, containers, networks, volumes, registries). These two videos should be viewed as connected parts of a clear Docker learning path.\nThanks to typeCraft.\nRecommended videos Part 1: Learn Docker Part 2: Learn Docker Compose ",
     "date": "2026-04-21T09:44:44+05:30",
     "permalink": "http://localhost:1313/posts/learn-docker-the-right-way/"
   },

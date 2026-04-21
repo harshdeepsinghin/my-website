@@ -89,12 +89,6 @@
   </url><url>
     <loc>http://localhost:1313/prompts/depth-subject-study/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/devops/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/docker/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/learning/</loc>
-  </url><url>
     <loc>http://localhost:1313/prompts/pyqs-insights/</loc>
   </url><url>
     <loc>http://localhost:1313/prompts/random-topic-revision/</loc>
