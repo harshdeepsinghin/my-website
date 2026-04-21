@@ -2,23 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/dark_web_research/</loc>
-    <lastmod>2025-12-06T18:11:41+00:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-04-21T09:44:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/containers/</loc>
+    <lastmod>2026-04-21T09:44:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/devops/</loc>
+    <lastmod>2026-04-21T09:44:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/docker/</loc>
+    <lastmod>2026-04-21T09:44:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/dockerfile/</loc>
+    <lastmod>2026-04-21T09:44:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/guide/</loc>
+    <lastmod>2026-04-21T09:44:44+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-12-09T12:19:08+00:00</lastmod>
+    <lastmod>2026-04-21T09:44:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/learn-docker-the-right-way/</loc>
+    <lastmod>2026-04-21T09:44:44+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-12-09T12:19:08+00:00</lastmod>
+    <lastmod>2026-04-21T09:44:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-04-21T09:44:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tutorial/</loc>
+    <lastmod>2026-04-21T09:44:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/videos/</loc>
+    <lastmod>2026-04-21T09:44:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/dark_web_research/</loc>
+    <lastmod>2025-12-06T18:11:41+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ai/</loc>
     <lastmod>2025-05-31T13:46:42+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/ai-prompts/</loc>
     <lastmod>2025-05-31T13:46:42+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-12-09T12:19:08+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/chatgpt/</loc>
     <lastmod>2025-05-31T13:46:42+00:00</lastmod>
@@ -31,9 +58,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/prompts/</loc>
     <lastmod>2025-05-31T13:46:42+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-12-09T12:19:08+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/tips/</loc>
     <lastmod>2025-05-31T13:46:42+00:00</lastmod>
@@ -50,9 +74,6 @@
     <loc>http://localhost:1313/tags/diffie-hellman/</loc>
     <lastmod>2025-12-09T12:19:08+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/guide/</loc>
-    <lastmod>2025-12-09T12:19:08+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/my-cryptography-learning-journey/</loc>
     <lastmod>2025-12-09T12:19:08+00:00</lastmod>
   </url><url>
@@ -67,6 +88,12 @@
     <loc>http://localhost:1313/prompts/</loc>
   </url><url>
     <loc>http://localhost:1313/prompts/depth-subject-study/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/devops/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/docker/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/learning/</loc>
   </url><url>
     <loc>http://localhost:1313/prompts/pyqs-insights/</loc>
   </url><url>
