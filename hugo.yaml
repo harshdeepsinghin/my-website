@@ -15,6 +15,11 @@ params:
       url: "https://github.com/harshdeepsinghin"
   ShowCodeCopyButtons: true
 
+security:
+  allowContent:
+    - "text/html"
+    - "text/markdown"
+
 markup:
   highlight:
     style: monokai       # Choose from Hugo's supported styles like monokai, dracula, etc.
